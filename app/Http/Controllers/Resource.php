@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Controller\Request;
-
+use App\Models\Activity;
 
 class Resource extends Controller
 {
@@ -12,7 +12,8 @@ class Resource extends Controller
      */
     public function index()
     {
-        return  "Hola Pablete";
+        $activities = Activity::all();
+        return response()->json($activities);
     }
 
     /**
@@ -20,7 +21,12 @@ class Resource extends Controller
      */
     public function create()
     {
-        return  "Hola Pablete";
+       $activities = Activity::create({'name' => 'surf'});
+       $activities = Activity::create({'user_id' => '1'});
+       $activities = Activity::create({'datetime' => '24/03/2025'});
+       $activities = Activity::create({'paid' => 'true'});
+       $activities = Activity::create({'notes' => 'null'});
+       $activities = Activity::create({'satifaction' => '2'});
     }
 
     /**
@@ -28,7 +34,21 @@ class Resource extends Controller
      */
     public function store(Request $request)
     {
-        return  "Hola Pablete";
+        
+        $validated = $request->validate([
+            'type' => 'required|string',
+            'user_id' => 'required|exists:users,id',  
+            'datetime' => 'required|date',
+            'paid' => 'required|boolean',
+            'notes' => 'nullable|string',
+            'satisfaction' => 'nullable|integer|min:0|max:10',
+        ]);
+
+        
+        $activity = Activity::create($validated);
+
+        
+        return response()->json($activity, 201); 
     }
 
     /**
@@ -36,7 +56,9 @@ class Resource extends Controller
      */
     public function show(string $id)
     {
-        return  "Hola Pablete";
+        $activity = Activity::findOrFail($id);  // Buscar actividad por ID
+
+        return response()->json($activity);
     }
 
     /**
@@ -44,7 +66,9 @@ class Resource extends Controller
      */
     public function edit(string $id)
     {
-       return  "Hola Pablete";
+        $activity = Activity::findOrFail($id);  // Buscar actividad por ID
+
+        return response()->json($activity);
     }
 
     /**
@@ -52,7 +76,21 @@ class Resource extends Controller
      */
     public function update(Request $request, string $id)
     {
-       return  "Hola Pablete";
+        $activity = Activity::findOrFail($id);
+
+        // Validación de los datos
+        $validated = $request->validate([
+            'type' => 'required|string',
+            'user_id' => 'required|exists:users,id',
+            'datetime' => 'required|date',
+            'paid' => 'required|boolean',
+            'notes' => 'nullable|string',
+            'satisfaction' => 'nullable|integer|min:0|max:10',
+        ]);
+
+        $activity->update($validated);
+
+        return response()->json($activity);
     }
 
     /**
@@ -60,6 +98,9 @@ class Resource extends Controller
      */
     public function destroy(string $id)
     {
-        return  "Hola Pablete";
+        $activity = Activity::findOrFail($id);
+        $activity->delete();
+
+        return response()->json(['message' => 'Activity deleted successfully']);
     }
 }
