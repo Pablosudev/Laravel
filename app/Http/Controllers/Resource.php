@@ -23,7 +23,7 @@ class Resource extends Controller
     {
         
         $activity = Activity::create([
-            'name' => 'surf',
+            'type' => 'kayak',
             'user_id' => 1,
             'datetime' => '2025-03-24', 
             'paid' => true,
@@ -59,7 +59,7 @@ class Resource extends Controller
      */
     public function show(string $id)
     {
-        $activity = Activity::findOrFail($id);  // Buscar actividad por ID
+        $activity = Activity::findOrFail($id); 
 
         return response()->json($activity);
     }
@@ -69,7 +69,16 @@ class Resource extends Controller
      */
     public function edit(string $id)
     {
-        $activity = Activity::findOrFail($id);  // Buscar actividad por ID
+        $activity = Activity::findOrFail($id);  
+        
+        $activity -> update([
+            'type' => 'windsurf',
+            'user_id' => 3,
+            'datetime' => '2025-03-24', 
+            'paid' => true,
+            'notes' => null,
+            'satisfaction' => 2,  
+        ]);
 
         return response()->json($activity);
     }
