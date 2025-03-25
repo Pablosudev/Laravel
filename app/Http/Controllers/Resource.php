@@ -110,9 +110,15 @@ class Resource extends Controller
      */
     public function destroy(string $id)
     {
-        $activity = Activity::findOrFail($id);
-        $activity->delete();
+        try {
+            $activity = Activity::find($id);
+            $activity->delete();
 
-        return response()->json(['message' => 'Activity deleted successfully']);
+            return response()->json(['message' => 'Activity deleted successfully']);
+        } catch (\Throwable $th) {
+            return('Delete not found');
+        }
+        
+       
     }
 }
