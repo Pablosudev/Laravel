@@ -13,7 +13,7 @@ class Resource extends Controller
     public function index()
     {
         $activities = Activity::all();
-        return response()->json($activities);
+        return view('activities',['activities' => $activities]);
     }
 
     /**
