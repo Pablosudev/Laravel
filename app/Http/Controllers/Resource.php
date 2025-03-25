@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Controller\Request;
+use Illuminate\Http\Request;
 use App\Models\Activity;
+use App\Models\User;
 
 class Resource extends Controller
 {
@@ -21,15 +22,9 @@ class Resource extends Controller
      */
     public function create()
     {
-        
-        $activity = Activity::create([
-            'type' => 'kayak',
-            'user_id' => 1,
-            'datetime' => '2025-03-24', 
-            'paid' => true,
-            'notes' => null,
-            'satisfaction' => 2,  
-        ]);
+        $activityTypes = ['surf', 'windsurf', 'layak', 'atv', 'hot air ballon'];
+        $users = User::all();
+        return view('newActivities', ['activityTypes' => $activityTypes, 'users' => $users]);
     }
 
     /**
@@ -47,11 +42,18 @@ class Resource extends Controller
             'satisfaction' => 'nullable|integer|min:0|max:10',
         ]);
 
-        
-        $activity = Activity::create($validated);
+        $activity = new Activity();
+        $activity->type = $validated['type'];
+        $activity->user_id = $validated['user_id']; 
+        $activity->datetime = $validated['datetime'];
+        $activity->paid = $validated['paid'];  
+        $activity->notes = $validated['notes'];
+        $activity->satisfaction = $validated['satisfaction'];
 
-        
-        return response()->json($activity, 201); 
+    
+    $activity->save();
+
+    return redirect()->route('activities.index')->with('success', 'Activity created successfully.');
     }
 
     /**
