@@ -21,12 +21,15 @@ class Resource extends Controller
      */
     public function create()
     {
-       $activities = Activity::create({'name' => 'surf'});
-       $activities = Activity::create({'user_id' => '1'});
-       $activities = Activity::create({'datetime' => '24/03/2025'});
-       $activities = Activity::create({'paid' => 'true'});
-       $activities = Activity::create({'notes' => 'null'});
-       $activities = Activity::create({'satifaction' => '2'});
+        
+        $activity = Activity::create([
+            'name' => 'surf',
+            'user_id' => 1,
+            'datetime' => '2025-03-24', 
+            'paid' => true,
+            'notes' => null,
+            'satisfaction' => 2,  
+        ]);
     }
 
     /**
