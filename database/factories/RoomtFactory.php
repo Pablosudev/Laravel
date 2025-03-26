@@ -12,7 +12,6 @@ class RoomtFactory extends Factory
     public function definition(): array
     {
         return [
-            'id' => $this->faker->unique()->randomNumber(), 
             'number' => $this->faker->unique()->randomNumber(3), 
             'price' => $this->faker->randomFloat(100, 200, 500), 
             'offer' => $this->faker->boolean(), 

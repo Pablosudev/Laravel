@@ -9,7 +9,6 @@ class ContactModel extends Model
 {
     protected $fillable = [
         'date',
-        'id',
         'name',
         'email',
         'phone',

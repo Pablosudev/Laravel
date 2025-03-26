@@ -14,7 +14,6 @@ class BookingsFactory extends Factory
     public function definition(): array
     {
         return [
-            'id' => $this->faker->unique()->randomNumber(), 
             'name' => $this->faker->name(), 
             'date' => $this->faker->date(), 
             'check_in' => $this->faker->dateTimeThisYear(), 

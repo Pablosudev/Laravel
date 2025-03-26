@@ -14,7 +14,6 @@ class ContactFactory extends Factory
     public function definition(): array
     {
         'date' => $this->faker->date(),
-        'id' => $this->faker->unique()->randomNumber(), 
         'name' => $this->faker->name(), 
         'email' => $this->faker->safeEmail(), 
         'phone' => $this->faker->phoneNumber(), 

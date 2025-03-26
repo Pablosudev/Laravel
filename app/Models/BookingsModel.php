@@ -8,7 +8,6 @@ class BookingsModel extends Model
 {
     protected function $fillable{
         'name',
-        'id',
         'date',
         'check_in',
         'check_out',
