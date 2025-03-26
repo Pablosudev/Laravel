@@ -16,4 +16,8 @@ class BookingsModel extends Model
         'status',
         'room_id'
     }
+    public function booking()
+    {
+        return $this -> belognsTo(RoomsModel::class);
+    }
 }
