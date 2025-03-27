@@ -13,12 +13,14 @@ class ContactFactory extends Factory
 
     public function definition(): array
     {
-        'date' => $this->faker->date(),
-        'name' => $this->faker->name(), 
-        'email' => $this->faker->safeEmail(), 
-        'phone' => $this->faker->phoneNumber(), 
-        'subject' => $this->faker->word(), 
-        'comment' => $this->faker->paragraph(), 
-        'archived' => $this->faker->boolean(),
+        return[
+            'date' => $this->faker->date(),
+            'name' => $this->faker->name(), 
+            'email' => $this->faker->safeEmail(), 
+            'phone' => $this->faker->phoneNumber(), 
+            'subject' => $this->faker->word(), 
+            'comment' => $this->faker->paragraph(), 
+            'archived' => $this->faker->boolean(),
+        ];
     }
 }
