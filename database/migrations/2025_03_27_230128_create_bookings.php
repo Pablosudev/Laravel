@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->timetamps('date');
+            $table->timetamps('Check In');
+            $table->timetamps('Check Out');
+            $table->string('request');
+            $table->enum('status', ['Check In', 'Check Out', 'In Progress'])->default('In Progress');
+            $table->unsignedBigInteger('room_id');  // Especificamos el tipo de dato correcto (unsignedBigInteger)
+            $table->foreign('room_id')->references('id')->on('rooms')->onDelete('cascade');
             $table->timestamps();
         });
     }
