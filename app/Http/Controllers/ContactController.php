@@ -15,14 +15,14 @@ class ContactController extends Controller
     public function create();
     {
         $contacts = Contact::all()
-        return view('contacts', ['contacts' => $contacts])
+        return view('contacts', ['contacts' => $contacts]);
     }
     public function store(Request $request)
     {
         $validate =$request->validate([
             'date' => 'required|date',
             'name' => 'required|string',
-            'email' => 'required\string',
+            'email' => 'required|string',
             'phone' => 'required|string',
             'subject' => 'required|string',
             'comment' => 'required|string',
@@ -44,7 +44,7 @@ class ContactController extends Controller
     public function show(string $id)
     {
         $contacts = Contact::findOrFail($id);
-        retunr response()->json($contacts)
+        return response()->json($contacts)
     }
     public function edit(string $id)
     {

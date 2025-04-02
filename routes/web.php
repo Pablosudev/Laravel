@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Controllers\Resource;
+use App\Controllers\Activity;
 use App\Controllers\UserController;
 use App\Controllers\ContactController;
 use App\Controllers\RoomController;

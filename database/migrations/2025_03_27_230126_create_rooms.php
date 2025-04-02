@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('rooms', function (Blueprint $table) {
             $table->id();
-            $table->integer('number');
+            $table->integer('number')->unique();
             $table->integer('price');
             $table->integer('offer');
             $table->enum('roomStatus', ['Available', 'Booked']) -> default ('Available');
