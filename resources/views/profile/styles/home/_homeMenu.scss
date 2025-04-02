@@ -1,0 +1,245 @@
+.menu{
+    padding-left: 5%;
+    padding-right: 5%;
+    @media screen and (min-width: 1000px) {
+        padding-left: 14%;
+        padding-top: 4%;
+        position: relative;
+    }
+    &__donut{
+        position: absolute;
+        right: 0%;
+        @media screen and (min-width: 1000px) {
+            display: none;
+        }
+    }
+    &__donutDesk{
+        display: none;
+        @media screen and (min-width: 1000px) {
+            display: block;
+            width: 10rem;
+            height: 10rem;
+            position: absolute;
+            left: 6%;
+            top: 1%;
+        }
+    }
+    &__title{
+        font-family: $archivo;
+        font-size: 0.87rem;
+        font-weight: 700;
+        line-height: 1rem;
+        letter-spacing: 0.17rem;
+        text-align: left;
+        color: $grey7;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        @media screen and (min-width: 1000px) {
+            padding-left: 3%; 
+        }
+    }
+    &__section{
+        font-family: $old;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+        text-align: left;
+        color: $black2;
+        margin-bottom: 2rem;
+        @media screen and (min-width: 1000px) {
+            padding-left: 2%; 
+        }
+    }
+    &__slider{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        @media screen and (min-width: 1000px) {
+            display: none;
+        }
+        
+        
+        .swiper-food{
+            width: 100%;
+            height: 34rem;
+            margin-bottom: 4rem;
+            .swiper-button-prev{
+                color: $black2;
+                padding: 1rem;
+                background-color: $whiteF8;
+                position: absolute;
+                top: var(--swiper-navigation-top-offset, 95%);
+                width: calc(var(--swiper-navigation-size) / 44* 27);
+                height: var(--swiper-navigation-size);
+                left: auto;
+                right: 14%;
+                z-index: 10;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                --swiper-navigation-size: 1rem;
+                &:hover{
+                    background-color: $beige;
+                }
+            }
+            .swiper-button-next{
+                color: $black2;
+                padding: 1rem;
+                background-color: $whiteF8;
+                position: absolute;
+                top: var(--swiper-navigation-top-offset, 95%);
+                width: calc(var(--swiper-navigation-size) / 44* 27);
+                height: var(--swiper-navigation-size);
+                z-index: 10;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                --swiper-navigation-size: 1rem;
+
+                &:hover{
+                    background-color: $beige;
+                }
+            }
+            .swiper-pagination-bullet-active{
+                background-color: $beige;
+            }
+        }
+
+
+        &__food{
+            display: flex;
+            margin-bottom: 3rem;
+            @media screen and (min-width: 1000px) {
+                :hover{
+                    background-color: black;
+                    color: white;
+            
+                }
+            }
+            
+            &__image{
+                height: 7.5rem; 
+                width: 7.5rem;
+                margin-right: 1.5rem;
+                @media screen and (min-width: 1000px) {
+                    margin: 0%; 
+                }
+            }
+            &__box{
+                padding-left: 1.5rem;
+                @media screen and (min-width: 1000px) {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+                }
+                &__title{
+                    font-family: Old Standard TT;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.7200000286102295px;
+                    text-align: left;
+                    // color: $black2;
+                    padding-top: 0.2rem;
+                    padding-bottom: 1rem;
+
+                }
+                &__text{
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                }
+             
+            }
+        }
+    }
+    &__restaurant{
+        .swiper-restaurant{
+            width: 100%;
+            height: 20.9rem;
+            margin-bottom: 4rem;
+            @media screen and (min-width: 1000px) {
+                width: 23rem;
+            }
+            .swiper-pagination-bullet-active{
+                background-color: $beige;
+            }
+            .swiper-button-prev{
+                display: none;
+                @media screen and (min-width: 1000px) {
+                    color: $black2;
+                padding: 1rem;
+                padding-top: 2%;
+                background-color: $whiteF8;
+                position: absolute;
+                top: var(--swiper-navigation-top-offset, 0%);
+                width: calc(var(--swiper-navigation-size) / 44* 27);
+                height: var(--swiper-navigation-size);
+                left: auto;
+                right: 4%;
+                z-index: 10;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                --swiper-navigation-size: 1rem;
+                &:hover{
+                    background-color: $beige;
+                }
+                    
+                }
+                
+            }
+            .swiper-button-next{
+                display: none;
+                @media screen and (min-width: 1000px) {
+                color: $black2;
+                padding: 1rem;
+                padding-top: 2%;
+                background-color: $whiteF8;
+                position: absolute;
+                top: var(--swiper-navigation-top-offset, 0%);
+                width: calc(var(--swiper-navigation-size) / 44* 27);
+                height: var(--swiper-navigation-size);
+                z-index: 10;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                --swiper-navigation-size: 1rem;
+
+                &:hover{
+                    background-color: $beige;
+                }
+            }
+            }
+        }
+    }
+    &__img{
+        @media screen and (min-width: 1000px) {
+            width: 23rem;
+            height: 23rem;
+        }
+       
+    }
+    &__foodDesk{
+        display: none;
+        @media screen and (min-width: 1000px) {
+            display: flex;
+            justify-content: center;
+        }
+        &__container{
+            @media screen and (min-width: 1000px) {
+                display: flex;
+                flex-direction: column;
+                margin-right: 5%;
+            }
+        }
+    }
+}

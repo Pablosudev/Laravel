@@ -1,0 +1,242 @@
+.offers{
+    margin-top: 2rem;
+    &__cards{
+        padding-left: 5%;
+        padding-right: 5%;
+        position: relative;
+        &__button{
+            @include defaultbutton($backgroundColor: $beige,$paddingLeft:21%,$paddingRight:23%);
+            margin-bottom: 4rem;
+        }
+        &__room{
+            height: 10.1rem;
+            width: 20.9rem;
+            position: relative;
+            
+        }
+        &__box{
+            position: absolute;
+            right: 8%;
+            top: 11%;
+    
+            &__offer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $pink;
+                padding-left: 5%;
+                padding-right: 5%;
+                &__dolar{
+                    font-family: $archivo;
+                    font-size: 1.87rem;
+                    font-weight: 700;
+                    line-height: 2rem;
+                    padding-left: 0.2rem;
+                }
+                &__day{
+                    font-family: $archivo;
+                    font-size: 0.75rem;
+                    font-weight: 700;
+                    line-height: 0.81rem;
+                    text-align: right;
+                    margin-top: 1rem;
+                }
+            }
+            &__price{
+                display: flex;
+                align-items: baseline;
+                justify-content: flex-end;
+                color: $beige;
+                text-decoration: line-through;
+                &__dolar{
+                    font-family: $archivo;
+                    font-size: 1.43rem;
+                    font-weight: 700;
+                    line-height: 1.5rem;
+                    text-align: right;
+                }
+                &__day{
+                    font-family: $archivo;
+                    font-size: 0.68rem;
+                    font-weight: 700;
+                    line-height: 0.75rem;
+                    text-align: right;
+                    margin-top: 1rem;
+                }
+            }
+        }
+        &__tipe{
+            font-family: $archivo;
+            font-size: 0.87rem;
+            font-weight: 700;
+            line-height: 0.95rem;
+            letter-spacing: 0.17rem;
+            text-align: left;
+            color: $grey7;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        &__model{
+            font-family: $old;
+            font-size: 2.5rem;
+            font-weight: 400;
+            line-height: 3rem;
+            letter-spacing: -0.09rem;
+            text-align: left;
+            color: $black2;
+        }
+        &__text{
+            font-family: $roboto;
+            font-size: 0.87rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            text-align: left;
+            color: $grey7;
+            margin-top: 1rem;
+        }
+        &__services{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            &__list{
+                list-style-type: none;
+                margin-right: 0.8rem;
+                margin-bottom: 5rem;
+                &__info{
+                    font-family: $roboto;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    line-height: 1.1rem;
+                    text-align: left;
+                    margin-bottom: 1rem;
+                    &__logo{
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+    &__popular{
+        background-color: $black2;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__list{
+            font-family: Archivo;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 15.23px;
+            letter-spacing: 2.799999952316284px;
+            text-align: left;
+            color: $beige;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        &__rooms{
+            font-family: $old;
+            font-size: 2.5rem;
+            font-weight: 400;
+            line-height: 3rem;
+            letter-spacing: -0.05rem;
+            text-align: left;
+            color: $whiteF;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        &__box{
+            &__slide{
+                width: 20.9rem;
+                height: 13.6rem;
+            }
+            .swiper-offers{
+                width: 20.9rem;
+                height: 13.6rem;
+            
+            .swiper-button-prev{
+                color: $black2;
+                padding: 1rem;
+                background-color: $whiteF;
+                --swiper-navigation-size: 1rem;
+                &:hover{
+                    background-color: $beige;
+                }
+            }
+            .swiper-button-next{
+                color: $black2;
+                padding: 1rem;
+                background-color: $whiteF;
+                --swiper-navigation-size: 1rem;
+                &:hover{
+                    background-color: $beige;
+                }
+            }
+            }
+            &__boxLogo{
+                @include defaultBoxLog($bottom:39%,$left:21%);
+                z-index: 1;
+            }
+            &__container{
+                background-color: $whiteF;
+                padding-top: 1rem;
+
+                &__room{
+                    font-family: $old;
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    line-height: 1.5rem;
+                    letter-spacing: -0.045rem;
+                    text-align: center;
+                    color: $black2;
+                    margin-bottom: 1rem;
+                    margin-top: 1rem;
+                    padding-top: 1rem;
+                    
+                }
+                &__text{
+                    font-family: $roboto;
+                    font-size: 0.87rem;
+                    font-weight: 400;
+                    line-height: 1.5rem;
+                    text-align: center;
+                    color: $grey7;
+                }
+                &__price{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    padding-bottom: 2rem;
+                    &__pricing{
+                        color: $beige;
+                        font-family: $archivo;
+                        font-size: 1rem;
+                        font-weight: 700;
+                        line-height: 1rem;
+                        text-align: right;
+                        padding-right: 1rem;
+                    }
+                    &__booking{
+                        font-family: $archivo;
+                        font-size: 1rem;
+                        font-weight: 700;
+                        line-height: 1rem;
+                        text-align: right;
+                        color: $greyBD;
+                    }
+                }
+
+            }
+        }        
+    }
+}
+.swiper-facilities {
+    width: 20.9rem;
+    height: 23.1rem;
+    .swiper-pagination-bullet-active{
+      background-color: $beige;
+    }
+  }
