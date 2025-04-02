@@ -26,7 +26,9 @@ Route::middleware('auth')->group(function () {
     Route::resource('contacts',ContactController::class);
     Route::resource('rooms', RoomController::class);
     Route::resource('bookings',BookingController::class);
-    
+    Route::get('home', function () {
+        return view('home');
+    })->name('home');
 });
 
 
