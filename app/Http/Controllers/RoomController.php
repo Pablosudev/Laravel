@@ -24,8 +24,8 @@ class RoomController extends Controller
             'offer' => 'required|integer',
             'roomStatus' => 'required|boolean',
             'type' => 'required|string',
-            'amenities' => 'required|enum',
-        ])
+            'amenities' => 'required|string',
+        ]);
 
         $rooms = new Room();
         $rooms ->number = $validate['number'];
@@ -36,7 +36,7 @@ class RoomController extends Controller
         $rooms ->amenities = $validate['amenities'];
 
         $rooms->save();
-        return ('Rooms Create.')
+        return ('Rooms Create.');
     }
     public function show(string $id)
     {

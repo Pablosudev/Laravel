@@ -17,7 +17,7 @@ class BookingController extends Controller
         $bookings = Booking::all();
         return view('bookings' => ['bookings' => 'bookings']);
     }
-    public function store(Request $request);
+    public function store(Request $request)
     {
         $validate = $request->validate([
             'name' => 'required|string',
@@ -27,7 +27,7 @@ class BookingController extends Controller
             'request' => 'required|string',
             'status' => 'required|boolean',
             'room_id' => 'required|integer',
-        ])
+        ]);
 
         $bookings = new Booking();
         $bookings -> name = $validate['name'];
