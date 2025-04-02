@@ -1,0 +1,40 @@
+@mixin defaultbutton($backgroundColor,$paddingLeft,$paddingRight){
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: $paddingLeft;
+    padding-right: $paddingRight;
+    background-color: $backgroundColor;
+    border: transparent;
+    font-family: $archivo;
+    color: $whiteF;
+}
+@mixin defaultBoxLog($bottom,$left){
+    display: flex;
+    align-items: center;
+    background-color: $whiteF;
+    max-width: 16rem;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: absolute;
+    bottom: $bottom;
+    left: $left;
+    &__img{
+        padding-right: 1rem;
+    }
+}
+@mixin defaultInput($paddingLeft,$paddingRight,$paddingTop,$paddingBottom){
+    padding-left: $paddingLeft;
+    padding-right: $paddingRight;
+    padding-top: $paddingTop;
+    padding-bottom: $paddingBottom;
+    margin-top: 1rem;
+    border: transparent;
+    background-color: $whiteF8;
+    font-family: $roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    text-align: left;
+    color: $grey7;
+}

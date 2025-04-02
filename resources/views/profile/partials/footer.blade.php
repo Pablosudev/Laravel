@@ -12,11 +12,11 @@
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
             </p>
             <div class="footer__section__article__box">
-                <img src="{{ asset('images/Footer/facebook.png') }}" alt="logoFacebook" class="footer__section__article__box__logo">
-                <img src="{{ asset('images/Footer/twitter.png') }}" alt="logoX" class="footer__box__logo">
-                <img src="{{ asset('images/Footer/behance.png') }}" alt="logoBehance" class="footer__section__article__box__logo">
-                <img src="{{ asset('images/Footer/linkedin.png') }}" alt="logoLinkedin">
-                <img src="{{ asset('images/Footer/youtube.png') }}" alt="logoYoutube" class="footer__section__article__box__logo">
+                <img src="{{ asset('images/Footer/FaceLogo.png') }}" alt="logoFacebook" class="footer__section__article__box__logo">
+                <img src="{{ asset('images/Footer/XLogo.png') }}" alt="logoX" class="footer__box__logo">
+                <img src="{{ asset('images/Footer/BeLogo.png') }}" alt="logoBehance" class="footer__section__article__box__logo">
+                <img src="{{ asset('images/Footer/LinkeLogo.png') }}" alt="logoLinkedin">
+                <img src="{{ asset('images/Footer/YoutubeLogo.png') }}" alt="logoYoutube" class="footer__section__article__box__logo">
             </div>
         </article>
 
@@ -43,21 +43,21 @@
         <article class="footer__section__article__contact">
             <h4 class="footer__section__article__contact__title">Contact Us.</h4>
             <div class="footer__section__article__contact__call">
-                <img src="{{ asset('images/Footer/phone.png') }}" alt="logoPhone">
+                <img src="{{ asset('images/Footer/PhoneLogo.png') }}" alt="logoPhone">
                 <div>
                     <h4 class="footer__section__article__contact__call__phone">Phone Number</h4>
                     <p class="footer__section__article__contact__call__number">+987 876 765 76 577</p>
                 </div>
             </div>
             <div class="footer__section__article__contact__call">
-                <img src="{{ asset('images/Footer/mail.png') }}" alt="logoMail">
+                <img src="{{ asset('images/Footer/MessageLogo.png') }}" alt="logoMail">
                 <div>
                     <h4 class="footer__section__article__contact__call__phone">Email</h4>
                     <p class="footer__section__article__contact__call__number">info@hotelmiranda.com</p>
                 </div>
             </div>
             <div class="footer__section__article__contact__call">
-                <img src="{{ asset('images/Footer/maps.png') }}" alt="logoMaps">
+                <img src="{{ asset('images/Footer/MapLogo.png') }}" alt="logoMaps">
                 <div>
                     <h4 class="footer__section__article__contact__call__phone">Address</h4>
                     <p class="footer__section__article__contact__call__number">123 Street, City, Country</p>
@@ -65,7 +65,7 @@
             </div>
         </article>
 
-        <img src="{{ asset('images/Footer/footer-bg.png') }}" alt="fondo footer" class="footer__back">
+        <img src="{{ asset('images/Footer/FondoLogo.png') }}" alt="fondo footer" class="footer__back">
     </section>
 
     <section class="footer__info">

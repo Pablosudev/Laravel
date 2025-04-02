@@ -11,8 +11,7 @@
             </ol>
         @endforeach
        <a href="{{route('activities.create')}}">New Activity</a>
-
-        
+       
 </div>
 @include('partials.footer')
 

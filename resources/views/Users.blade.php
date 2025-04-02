@@ -13,3 +13,4 @@
        <a href="{{route('users.create')}}">New User</a>
 
 </div>
+@include('profile.partials.footer')
