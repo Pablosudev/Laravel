@@ -35,6 +35,9 @@ Route::middleware('auth')->group(function () {
     Route::get('about', function () {
         return view('about');
     })->name('about');
+    Route::get('offer', function () {
+        return view('offer');
+    })->name('offer');
 });
 
 
