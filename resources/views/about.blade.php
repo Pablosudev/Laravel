@@ -202,7 +202,7 @@
             
                     <!--Img6-->
                     <div class="about__facilities__image">
-                        <img src="{{asset ('images/AboutUS/facilities/offers.png')}}" alt="logo offers">
+                        <img class="about__facilities__image__hand" src="{{asset ('images/AboutUS/facilities/offers.png')}}" alt="logo offers">
                         <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/06.png')}}" alt="logo first">
                         <h2 class="about__facilities__image__title">Special Offers</h2>
                         <p class="about__facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
@@ -215,29 +215,31 @@
         <article class="about__counter">
             <h4 class="about__counter__title">COUNTER</h4>
             <h2 class="about__counter__section">Some Fun Facts</h2>
-            <div class="about__counter__section__container">
-                <div class="about__counter__section__container__box">
-                    <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162637.580 1.png')}}" alt="">
-                    <p class="about__counter__section__container__box__number">8000</p>
-                    <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+            <div class="about_conunterDesktop">
+                <div class="about__counter__section__container">
+                    <div class="about__counter__section__container__box">
+                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162637.580 1.png')}}" alt="">
+                        <p class="about__counter__section__container__box__number">8000</p>
+                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                    </div>
+                    <p class="about__counter__section__container__users">Happy Users</p>
                 </div>
-                <p class="about__counter__section__container__users">Happy Users</p>
-            </div>
-            <div class="about__counter__section__container">
-                <div class="about__counter__section__container__box">
-                    <img src="{{asset ('images/AboutUS/Group.png')}}" alt="">
-                    <p class="about__counter__section__container__box__number">10 M</p>
-                    <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                <div class="about__counter__section__container">
+                    <div class="about__counter__section__container__box">
+                        <img src="{{asset ('images/AboutUS/Group.png')}}" alt="">
+                        <p class="about__counter__section__container__box__number">10 M</p>
+                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                    </div>
+                    <p class="about__counter__section__container__users">Reviews & Appriciate</p>
                 </div>
-                <p class="about__counter__section__container__users">Reviews & Appriciate</p>
-            </div>
-            <div class="about__counter__section__container">
-                <div class="about__counter__section__container__box">
-                    <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162519.735 1.png')}}" alt="">
-                    <p class="about__counter__section__container__box__number">100</p>
-                    <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                <div class="about__counter__section__container">
+                    <div class="about__counter__section__container__box">
+                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162519.735 1.png')}}" alt="">
+                        <p class="about__counter__section__container__box__number">100</p>
+                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                    </div>
+                    <p class="about__counter__section__container__users">Country Coverage</p>
                 </div>
-                <p class="about__counter__section__container__users">Country Coverage</p>
             </div>
             <!--Swiper-->
             <div  class="swiper">

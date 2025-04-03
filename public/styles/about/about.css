@@ -832,6 +832,7 @@ body {
     width: 23rem;
     height: 21rem;
     margin-left: 2%;
+    position: relative;
   }
 }
 .about__facilities__image__hand {
@@ -841,6 +842,15 @@ body {
 .about__facilities__image__first {
   margin-bottom: 2rem;
   padding-left: 5rem;
+}
+@media screen and (min-width: 1000px) {
+  .about__facilities__image__first {
+    margin: 0%;
+    padding: 0%;
+    right: 0%;
+    top: 0%;
+    position: absolute;
+  }
 }
 .about__facilities__image__title {
   font-family: "Old Standard TT", serif;
@@ -852,6 +862,11 @@ body {
   color: #FFFFFF;
   margin-top: 1rem;
 }
+@media screen and (min-width: 1000px) {
+  .about__facilities__image__title {
+    text-align: center;
+  }
+}
 .about__facilities__image__text {
   font-family: "Archivo", sans-serif;
   font-size: 0.87rem;
@@ -862,9 +877,23 @@ body {
   margin-top: 1rem;
   padding-bottom: 2rem;
 }
+@media screen and (min-width: 1000px) {
+  .about__facilities__image__text {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
 .about__counter {
   padding-left: 5%;
   padding-right: 5%;
+}
+@media screen and (min-width: 1000px) {
+  .about__counter {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 .about__counter__title {
   font-family: "Archivo", sans-serif;
@@ -953,5 +982,13 @@ body {
 @media screen and (min-width: 1000px) {
   .swiper-facilities {
     display: none !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about_conunterDesktop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=about.css.map */
