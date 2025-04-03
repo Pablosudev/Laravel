@@ -7,13 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('styles/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="header__back"></div>
         <nav class="navbar">
-            <img id="imgButton" src="IMAGENES/NavBar/1.png" alt="icono menu" class="navbar__menu">
+            <img id="imgButton" src="{{ asset('images/NavBar/1.png')}}" alt="icono menu" class="navbar__menu">
             <div id="navbarList" class="navbar__dropdown">
                 <a class="navbar__dropdown__page" href="about.html">About Us</a>
                 <a class="navbar__dropdown__page" href="rooms.html">Rooms</a>
@@ -32,10 +32,10 @@
             </div>
             <div class="navbar__icon">
                 <div class="navbar__icon__logo">
-                    <img src="IMAGENES/NavBar/Vector.png" alt="icono Vector" class="navbar__icon__logo__vector">
+                    <img src="{{ asset('images/NavBar/Vector.png')}}" alt="icono Vector" class="navbar__icon__logo__vector">
                 </div>
                 <div class="navbar__icon__logo">
-                    <img src="IMAGENES/NavBar/search.png" alt="icono Search" class="navbar__icon__logo__vector">
+                    <img src="{{ asset('images/NavBar/search.png')}}" alt="icono Search" class="navbar__icon__logo__vector">
                 </div>
             </div>
         </nav>
@@ -47,14 +47,14 @@
             <div class="header__check__box">
                 <label class="header__check__box__date" >Arrival date</label>
                 <div class="header__check__box__calendar">
-                    <img src="IMAGENES/NavBar/7853753_event_kashifarif_calendar_schedule_appoinment_icon 1.png" alt="logo calendar" class="header__check__box__calendar__logo">
+                    <img src="{{ asset('images/NavBar/Calendar.png')}}" alt="logo calendar" class="header__check__box__calendar__logo">
                     <input class="header__check__box__calendar__input" type="text" placeholder="24th march 2025">
                 </div>
             </div>
             <div class="header__check__box">
                 <label class="header__check__box__date">Le Departure Date</label>
                 <div class="header__check__box__calendar">
-                    <img src="IMAGENES/NavBar/7853753_event_kashifarif_calendar_schedule_appoinment_icon 1.png" alt="logo calendar" class="header__check__box__calendar__logo">
+                    <img src="{{ asset('images/NavBar/Calendar.png')}}" alt="logo calendar" class="header__check__box__calendar__logo">
                     <input class="header__check__box__calendar__input" type="text" placeholder="30th march 2020">
                 </div>
             </div>
@@ -74,18 +74,18 @@
         </article>
         <article class="data__info">
             <div class="data__info__boxTeam">
-                <img src="IMAGENES/Rooms/descarga.jpg" alt="photo room" class="data__info__boxTeam__image">
+                <img src="{{ asset('images/Rooms/Room1.jpg')}}" alt="photo room" class="data__info__boxTeam__image">
                 <div class="data__info__boxTeam__team">
-                    <img src="IMAGENES/SectionData/svg-gobbler - 2022-03-01T200745.428 1.png" alt="group logo" class="data__info__boxTeam__team__logo">
+                    <img src="{{ asset('images/SectionData/svg-globber1.png')}}" alt="group logo" class="data__info__boxTeam__team__logo">
                     <h2 class="data__info__boxTeam__team__title">Strong Team</h2>
                     <p class="data__info__boxTeam__team__text">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit, sed <br>do eiusmod tempor.</p>
-                    <img src="IMAGENES/SectionData/svg-gobbler - 2022-03-01T200745.428 2.png" alt="logo transparent" class="data__info__boxTeam__team__transparent">
+                    <img src="{{ asset('images/SectionData/globber2.png')}}" alt="logo transparent" class="data__info__boxTeam__team__transparent">
                 </div>
             </div>
             <div class="data__info__box">
-                <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="box" class="data__info__boxTeam__image">
+                <img src="{{ asset('images/Rooms/globber2.png')}}{{ asset('images/Rooms/globber2.png')}}" alt="box" class="data__info__boxTeam__image">
                 <div class="data__info__box__luxury">
-                    <img src="IMAGENES/SectionData/Group.png" alt="groupLogo" class="data__info__box__luxury__logo">
+                    <img src="{{asset ('images/SectionData/Group.png')}}" alt="groupLogo" class="data__info__box__luxury__logo">
                     <h2 class="data__info__box__luxury__title">Luxury Room</h2>
                     <p class="data__info__box__luxury__text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed <br> do eiusmod tempor.</p>
                 </div>
@@ -104,15 +104,15 @@
                 <!--Slide1-->
                 <div class="swiper-slide">
                     <div>
-                        <img  class="rooms__slider__image" src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="image room">
+                        <img  class="rooms__slider__image" src="{{asset ('images/Rooms/Room2.jpg')}}" alt="image room">
                         <div class="rooms__slider__boxLogo">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (1).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Group.png" alt="">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Layer_1.png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (2).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (3).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (4).png" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Group.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt=""> 
                         </div>  
                         <div class="rooms__slider__card">
                             <h2 class="rooms__slider__card__title">Minimal Duplex Room</h2>
@@ -124,15 +124,15 @@
                 <!--Slide2-->
                 <div class="swiper-slide">
                     <div>
-                        <img  class="rooms__slider__image" src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="image room">
+                        <img  class="rooms__slider__image" src="{{asset ('images/Rooms/Room2.jpg')}}" alt="image room">
                         <div class="rooms__slider__boxLogo">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (1).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Group.png" alt="">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Layer_1.png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (2).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (3).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (4).png" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Group.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt=""> 
                         </div>  
                         <div class="rooms__slider__card">
                             <h2 class="rooms__slider__card__title">Minimal Duplex Room</h2>
@@ -143,16 +143,16 @@
                 </div>
                 <!--Slide3-->
                 <div class="swiper-slide">
-                    <div>
-                        <img  class="rooms__slider__image" src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="image room">
+                <div>
+                        <img  class="rooms__slider__image" src="{{asset ('images/Rooms/Room2.jpg')}}" alt="image room">
                         <div class="rooms__slider__boxLogo">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (1).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Group.png" alt="">
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Layer_1.png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (2).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (3).png" alt=""> 
-                            <img class="rooms__slider__boxLogo__logo" src="IMAGENES/SectionRooms/Vector (4).png" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Group.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt=""> 
                         </div>  
                         <div class="rooms__slider__card">
                             <h2 class="rooms__slider__card__title">Minimal Duplex Room</h2>
@@ -502,78 +502,7 @@
         </div>
         
     </section>
-    <footer class="footer">
-        <section class="footer__section">
-            <article class="footer__section__article">
-                <div class= "footer__section__article__logo">
-                    <div class="footer__section__article__logo__box">
-                        <h2 class="footer__section__article__logo__box__letter">H</h2> 
-                    </div>
-                    <h2 class="footer__section__article__logo__title"><b>HOTEL</b><br>MIRANDA</h2>
-                </div>
-                <p class="footer__section__article__text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
-                <div class="footer__section__article__box">
-                    <img src="IMAGENES/Footer/5282541_fb_social media_facebook_facebook logo_social network_icon 1.png" alt="logoFacebook" class="footer__section__article__box__logo">
-                    <img src="IMAGENES/Footer/twitter_icon.png" alt="logoX" class="footer__box__logo">
-                    <img src="IMAGENES/Footer/5282539_behance_portfolio_social network_behance logo_icon 1.png" alt="logoBehance" class="footer__section__article__box__logo">
-                    <img src="IMAGENES/Footer/104493_linkedin_icon 1.png" alt="lgoLinkedin">
-                    <img src="IMAGENES/Footer/5282548_play_player_video_youtube_youtuble logo_icon 1.png" alt="logoYoutube" class="footer__section__article__box__logo">
-                </div>
-            </article>
-            <article class="footer__section__article__service">
-                <h4 class="footer__section__article__service__title">Services.</h4>
-                <div class="footer__section__article__service__options">
-                    <li class="footer__section__article__service__options__listServices">
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Resturent & Bar</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Swimming Pool</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Wellness & Spa</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Restaurant</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Conference Room</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Coctail Party House</ul>
-                    </li>
-                    <li class="footer__section__article__service__options__listServices">
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Gaming Zone</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Marrige Party</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Party Planning</ul>
-                        <ul class="footer__section__article__service__options__listServices__activity">+ Tour Consultancy</ul>
-                    </li>
-                </div>
-            </article>
-            <article class="footer__section__article__contact">
-                <h4 class="footer__section__article__contact__title">Contact Us.</h4>
-                <div class="footer__section__article__contact__call">
-                    <img src="IMAGENES/Footer/svg-gobbler - 2022-03-02T152425.400 1.png" alt="logoPhone" >
-                    <div>
-                        <h4 class="footer__section__article__contact__call__phone">Phone Number</h4>
-                        <p class="footer__section__article__contact__call__number">+987 876 765 76 577</p>
-                    </div>
-                </div>
-                <div class="footer__section__article__contact__call">
-                    <img src="IMAGENES/Footer/icon 9.png" alt="logoMail">
-                    <div>
-                        <h4 class="footer__section__article__contact__call__phone">Phone Number</h4>
-                        <p class="footer__section__article__contact__call__number">+987 876 765 76 577</p>
-                    </div>
-                </div>
-                <div class="footer__section__article__contact__call">
-                    <img src="IMAGENES/Footer/icon 10.png" alt="logoMaps">
-                    <div>
-                        <h4 class="footer__section__article__contact__call__phone">Phone Number</h4>
-                        <p class="footer__section__article__contact__call__number">+987 876 765 76 577</p>
-                    </div>
-                </div>
-            </article>
-            <img src="IMAGENES/Footer/Rectángulo 2 1.png" alt="fondo footer" class="footer__back">
-        </section>
-        <section class="footer__info">
-            <p class="footer__info__copyright">Copyright By@Pablo-2025</p>
-            <div class="footer__info__terms">
-                <p class="footer__info__terms__use">Terms of use</p>
-                <p class="footer__info__terms__line">|</p>
-                <p class="footer__info__terms__privacy">Privacy Environmental Policy</p>
-            </div>
-        </section>
+    @include('profile.partials.footer')
     </footer>
     <script src="script/navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
