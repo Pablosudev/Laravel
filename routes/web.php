@@ -38,6 +38,12 @@ Route::middleware('auth')->group(function () {
     Route::get('offer', function () {
         return view('offer');
     })->name('offer');
+    Route::get('rooms', function () {
+        return view('rooms');
+    })->name('rooms');
+    Route::get('roomDetails', function () {
+        return view('roomDetails');
+    })->name('roomDetails');
 });
 
 

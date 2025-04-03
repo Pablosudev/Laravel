@@ -817,6 +817,11 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+@media screen and (min-width: 1000px) {
+  .about__facilities__section {
+    text-align: center;
+  }
+}
 .about__facilities__image {
   background-color: #292929;
   padding-left: 2%;
@@ -824,8 +829,9 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .about__facilities__image {
-    max-width: 27rem;
-    margin-left: 1%;
+    width: 23rem;
+    height: 21rem;
+    margin-left: 2%;
   }
 }
 .about__facilities__image__hand {
@@ -924,7 +930,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .about .facilitiesDesktop__container {
-    margin-bottom: 1%;
+    margin-bottom: 3%;
   }
 }
 

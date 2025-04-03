@@ -175,7 +175,7 @@
                     <!--Img3-->
                     <div class="about__facilities__image">
                         <img class="about__facilities__image__hand" src="{{asset ('images/AboutUS/facilities/ubicacion.png')}}" alt="logo hand">
-                        <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/03 (1).png')}}" alt="logo first">
+                        <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/03.png')}}" alt="logo first">
                         <h2 class="about__facilities__image__title">Best Locations</h2>
                         <p class="about__facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
@@ -186,7 +186,7 @@
                     
                         <div class="about__facilities__image">
                             <img class="about__facilities__image__hand" src="{{asset ('images/AboutUS/facilities/cancellation.png')}}" alt="logo hand">
-                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/04 (1).png')}}" alt="logo first">
+                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/04.png')}}" alt="logo first">
                             <h2 class="about__facilities__image__title">Free Cancellation</h2>
                             <p class="about__facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
@@ -195,7 +195,7 @@
                     
                         <div class="about__facilities__image">
                             <img class="about__facilities__image__hand" src="{{asset ('images/AboutUS/facilities/card.png')}}" alt="logo hand">
-                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/05 (1).png')}}" alt="logo first">
+                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/05.png')}}" alt="logo first">
                             <h2 class="about__facilities__image__title">Payment Options</h2>
                             <p class="about__facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
@@ -203,7 +203,7 @@
                     <!--Img6-->
                     <div class="about__facilities__image">
                         <img src="{{asset ('images/AboutUS/facilities/offers.png')}}" alt="logo offers">
-                        <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/06 (1).png')}}" alt="logo first">
+                        <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/06.png')}}" alt="logo first">
                         <h2 class="about__facilities__image__title">Special Offers</h2>
                         <p class="about__facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
