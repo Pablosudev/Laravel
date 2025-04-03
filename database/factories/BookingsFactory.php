@@ -21,6 +21,6 @@ class BookingsFactory extends Factory
             'request' => $this->faker->sentence(), 
             'status' => $this->faker->randomElement(['Check In', 'Check Out', 'In progress']),
             'room_id' => Room::inRandomOrder()->first()->id, 
-        ]
+        ];
     }
 }

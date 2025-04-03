@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="data__info__box">
-                <img src="{{ asset('images/Rooms/globber2.png')}}{{ asset('images/Rooms/globber2.png')}}" alt="box" class="data__info__boxTeam__image">
+                <img src="{{ asset('images/Rooms/Room2.jpg')}}" alt="box" class="data__info__boxTeam__image">
                 <div class="data__info__box__luxury">
                     <img src="{{asset ('images/SectionData/Group.png')}}" alt="groupLogo" class="data__info__box__luxury__logo">
                     <h2 class="data__info__box__luxury__title">Luxury Room</h2>
@@ -368,21 +368,21 @@
                 <!--Slide1-->
                 <div class="swiper-slide">
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/eggs.jpg" alt="eggs&bacon">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/coffee.jpg" alt="TeaOrCoffee">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/chia3.jpg" alt="Chia">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -392,21 +392,21 @@
                 <!--Slide2-->
                 <div class="swiper-slide">
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/fruit parfait.jpg" alt="eggs&bacon">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/fruit parfait.jpg')}}" alt="eggs&bacon">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Fruit Parfait</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/marmalade selection.jpg" alt="TeaOrCoffee">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/marmalade selection.jpg')}}" alt="TeaOrCoffee">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Marmalade Selection</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/cheese plate.jpg" alt="Chia">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/cheese plate.jpg')}}" alt="Chia">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Cheese Plate</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -416,21 +416,21 @@
                 <!--Slide3-->
                 <div class="swiper-slide">
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/eggs.jpg" alt="eggs&bacon">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/coffee.jpg" alt="TeaOrCoffee">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                     <div class="menu__slider__food">
-                        <img class="menu__slider__food__image" src="IMAGENES/Home/chia3.jpg" alt="Chia">
+                        <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -452,12 +452,12 @@
                 <div class="swiper-wrapper">
                   <!-- Slides -->
                   <div class="swiper-slide">
-                    <img class="menu__restaurant__img" src="IMAGENES/Home/restaurante 1.jpg" alt="Restaurant 1 ">
-                    <img class="menu__restaurant__img" src="IMAGENES/Home/restaurante 2.jpg" alt="Restaurant 2">
-                    <img class="menu__restaurant__img" src="IMAGENES/Home/restaurante3.jpg" alt="Restaurant 3">
+                    <img class="menu__restaurant__img" src="{{asset ('images/Home/restaurante 1.jpg')}}" alt="Restaurant 1 ">
+                    <img class="menu__restaurant__img" src="{{asset ('images/Home/restaurante 2.jpg')}}" alt="Restaurant 2">
+                    <img class="menu__restaurant__img" src="{{asset ('images/Home/restaurante3.jpg')}}" alt="Restaurant 3">
                 </div>
-                  <div class="swiper-slide"><img src="IMAGENES/Home/restaurante 2.jpg" alt="Restaurant 2"></div>
-                  <div class="swiper-slide"><img src="IMAGENES/Home/restaurante3.jpg" alt="Restaurant 3"></div>
+                  <div class="swiper-slide"><img src="{{asset ('images/Home/restaurante 2.jpg')}}" alt="Restaurant 2"></div>
+                  <div class="swiper-slide"><img src="{{asset ('images/Home/restaurante3.jpg')}}" alt="Restaurant 3"></div>
                 </div>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
@@ -469,7 +469,7 @@
     </section>
     <section class="info">
         <div class="info__section">
-            <img class="info__section__image" src="IMAGENES/Home/icon 5 (1).svg" alt="rocket">
+            <img class="info__section__image" src="{{asset ('images/Home/icon 5 (1).svg')}}" alt="rocket">
             <div class="info__section__box">
                 <h2 class="info__section__box__title">84k</h2>
                 <p class="info__section__box__cross">+</p>
@@ -477,7 +477,7 @@
             <p class="info__section__text">Projects are Completed</p>
         </div>
         <div class="info__section">
-            <img class="info__section__image" src="IMAGENES/Home/backers.png" alt="backers">
+            <img class="info__section__image" src="{{asset ('images/Home/backers.png')}}" alt="backers">
             <div class="info__section__box">
                 <h2 class="info__section__box__title">10M</h2>
                 <p class="info__section__box__cross">+</p>
@@ -485,7 +485,7 @@
             <p class="info__section__text">Active Backers Around World</p>
         </div>
         <div class="info__section">
-            <img class="info__section__image" src="IMAGENES/Home/cetegories.png" alt="categories">
+            <img class="info__section__image" src="{{asset ('images/Home/cetegories.png')}}" alt="categories">
             <div class="info__section__box">
                 <h2 class="info__section__box__title">02k</h2>
                 <p class="info__section__box__cross">+</p>
@@ -493,7 +493,7 @@
             <p class="info__section__text">Categories Served</p>
         </div>
         <div class="info__section">
-            <img class="info__section__image" src="IMAGENES/Home/idea.png" alt="idea">
+            <img class="info__section__image" src="{{asset ('images/Home/idea.png')}}" alt="idea">
             <div class="info__section__box">
                 <h2 class="info__section__box__title">100M</h2>
                 <p class="info__section__box__cross">+</p>
