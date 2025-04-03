@@ -175,10 +175,10 @@
                 <h2 class="rooms__boxVideo__container__title">Meet With Our Luxury Place.</h2>
                 <p class="rooms__boxVideo__container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
             </div>
-            <img class="rooms__boxVideo__rectangleBrown" src="/IMAGENES/Home/Rectangle 27.png" alt="Brown">
+            <img class="rooms__boxVideo__rectangleBrown" src="{{asset ('/images/Home/Rectangle 27.png')}}" alt="Brown">
             <iframe class="rooms__boxVideo__video" src="https://www.youtube.com/embed/Bu3Doe45lcU?si=1ykL7j9FH62Ne6Y8&amp;start=25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <button class="rooms__boxVideo__buttonBook">BOOK NOW</button>
-            
+     
         </div>
     </section>
     <section class="facilities">
@@ -191,8 +191,8 @@
                         
                 <div class="swiper-slide">
                     <div class="facilities__image">
-                        <img class="facilities__image__hand" src="IMAGENES/AboutUS/icon 1.png" alt="logo hand">
-                        <img class="facilities__image__first" src="IMAGENES/Home/01 (2).png" alt="logo first">
+                        <img class="facilities__image__hand" src="{{asset ('images/AboutUS/icon 1.png')}}" alt="logo hand">
+                        <img class="facilities__image__first" src="{{asset ('images/Home/01 (2).png')}}" alt="logo first">
                         <h2 class="facilities__image__title">Have High Rating</h2>
                         <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
@@ -200,8 +200,8 @@
                 <!--Slider2-->
                 <div class="swiper-slide">
                     <div class="facilities__image">
-                        <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/reloj.png" alt="logo hand">
-                        <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/02 (1).png" alt="logo first">
+                        <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/reloj.png')}}" alt="logo hand">
+                        <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/02 (1).png')}}" alt="logo first">
                         <h2 class="facilities__image__title">Quiet Hours</h2>
                         <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
@@ -209,8 +209,8 @@
                 <!--Slider3-->
                 <div class="swiper-slide">
                     <div class="facilities__image">
-                        <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/ubicacion.png" alt="logo hand">
-                        <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/03 (1).png" alt="logo first">
+                        <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/ubicacion.png')}}" alt="logo hand">
+                        <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/03 (1).png')}}" alt="logo first">
                         <h2 class="facilities__image__title">Best Locations</h2>
                         <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
@@ -218,8 +218,8 @@
                 <!--Slider4-->
                 <div class="swiper-slide">
                     <div class="facilities__image">
-                        <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/cancellation.png" alt="logo hand">
-                        <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/04 (1).png" alt="logo first">
+                        <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/cancellation.png')}}" alt="logo hand">
+                        <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/04 (1).png')}}" alt="logo first">
                         <h2 class="facilities__image__title">Free Cancellation</h2>
                         <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
@@ -227,8 +227,8 @@
                 <!--Slider5-->
                 <div class="swiper-slide">
                     <div class="facilities__image">
-                        <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/card.png" alt="logo hand">
-                        <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/05 (1).png" alt="logo first">
+                        <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/card.png')}}" alt="logo hand">
+                        <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/05 (1).png')}}" alt="logo first">
                         <h2 class="facilities__image__title">Payment Options</h2>
                         <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
@@ -236,8 +236,8 @@
                 <!--Slider6-->
                 <div class="swiper-slide">
                     <div class="facilities__image">
-                        <img src="IMAGENES/AboutUS/facilities/offers.png" alt="logo offers">
-                        <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/06 (1).png" alt="logo first">
+                        <img src="{{asset ('images/AboutUS/facilities/offers.png')}}" alt="logo offers">
+                        <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/06 (1).png')}}" alt="logo first">
                         <h2 class="facilities__image__title">Special Offers</h2>
                         <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
@@ -252,22 +252,22 @@
         <div class="facilitiesDesktop__container">
             <!--Img1-->
             <div class="facilities__image">
-                <img class="facilities__image__hand" src="IMAGENES/AboutUS/icon 1.png" alt="logo hand">
-                <img class="facilities__image__first" src="IMAGENES/Home/01 (2).png" alt="logo first">
+                <img class="facilities__image__hand" src="{{asset ('images/AboutUS/icon 1.png')}}" alt="logo hand">
+                <img class="facilities__image__first" src="{{asset ('images/Home/01 (2).png')}}" alt="logo first">
                 <h2 class="facilities__image__title">Have High Rating</h2>
                 <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
             </div>
             <!--Img2-->
             <div class="facilities__image">
-                <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/reloj.png" alt="logo hand">
-                <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/02 (1).png" alt="logo first">
+                <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/reloj.png')}}" alt="logo hand">
+                <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/02 (1).png')}}" alt="logo first">
                 <h2 class="facilities__image__title">Quiet Hours</h2>
                 <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
             </div>
             <!--Img3-->
             <div class="facilities__image">
-                <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/ubicacion.png" alt="logo hand">
-                <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/03 (1).png" alt="logo first">
+                <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/ubicacion.png')}}" alt="logo hand">
+                <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/03 (1).png')}}" alt="logo first">
                 <h2 class="facilities__image__title">Best Locations</h2>
                 <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
             </div>
@@ -277,8 +277,8 @@
             <!--Img4-->
             
                 <div class="facilities__image">
-                    <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/cancellation.png" alt="logo hand">
-                    <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/04 (1).png" alt="logo first">
+                    <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/cancellation.png')}}" alt="logo hand">
+                    <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/04 (1).png')}}" alt="logo first">
                     <h2 class="facilities__image__title">Free Cancellation</h2>
                     <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                 </div>
@@ -286,16 +286,16 @@
             <!--Img5-->
             
                 <div class="facilities__image">
-                    <img class="facilities__image__hand" src="IMAGENES/AboutUS/facilities/card.png" alt="logo hand">
-                    <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/05 (1).png" alt="logo first">
+                    <img class="facilities__image__hand" src="{{asset ('images/AboutUS/facilities/card.png')}}" alt="logo hand">
+                    <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/05 (1).png')}}" alt="logo first">
                     <h2 class="facilities__image__title">Payment Options</h2>
                     <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                 </div>
     
             <!--Img6-->
             <div class="facilities__image">
-                <img src="IMAGENES/AboutUS/facilities/offers.png" alt="logo offers">
-                <img class="facilities__image__first" src="IMAGENES/AboutUS/facilities/06 (1).png" alt="logo first">
+                <img src="{{asset ('images/AboutUS/facilities/offers.png')}}" alt="logo offers">
+                <img class="facilities__image__first" src="{{asset ('images/AboutUS/facilities/06 (1).png')}}" alt="logo first">
                 <h2 class="facilities__image__title">Special Offers</h2>
                 <p class="facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
             </div>
@@ -305,21 +305,21 @@
     </section>
 
     <section class="menu">
-        <img class="menu__donut" src="IMAGENES/Home/donut.png" alt="donut">
-        <img class="menu__donutDesk" src="IMAGENES/Home/DonutDesk.png" alt="donutDesk">
+        <img class="menu__donut" src="{{asset ('images/Home/donut.png')}}" alt="donut">
+        <img class="menu__donutDesk" src="{{asset ('images/Home/DonutDesk.png')}}" alt="donutDesk">
         <h4 class="menu__title">MENU</h4>
         <h2 class="menu__section">Our Foods Menu</h2>
         <article class= "menu__foodDesk">
             <div class="menu__foodDesk__container">
                 <div class="menu__slider__food">
-                    <img class="menu__slider__food__image" src="IMAGENES/Home/eggs.jpg" alt="eggs&bacon">
+                    <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
                     <div class="menu__slider__food__box">
                         <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
                         <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                     </div>
                 </div>
                 <div class="menu__slider__food">
-                    <img class="menu__slider__food__image" src="IMAGENES/Home/coffee.jpg" alt="TeaOrCoffee">
+                    <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
                     <div class="menu__slider__food__box">
                         <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
                         <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -327,7 +327,7 @@
                 </div>
 
                 <div class="menu__slider__food">
-                    <img class="menu__slider__food__image" src="IMAGENES/Home/chia3.jpg" alt="Chia">
+                    <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
                     <div class="menu__slider__food__box">
                         <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
                         <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -337,7 +337,7 @@
 
             <div class="menu__foodDesk__container">
                 <div class="menu__slider__food">
-                    <img class="menu__slider__food__image" src="IMAGENES/Home/Parfait.jpeg" alt="Parfait">
+                    <img class="menu__slider__food__image" src="{{asset ('images/Home/Parfait.jpeg')}}" alt="Parfait">
                     <div class="menu__slider__food__box">
                         <h2 class="menu__slider__food__box__title">Fruit Parfait</h2>
                         <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -345,7 +345,7 @@
                 </div>
 
                 <div class="menu__slider__food">
-                    <img class="menu__slider__food__image" src="IMAGENES/Home/mermelade.jpg" alt="Mermelade">
+                    <img class="menu__slider__food__image" src="{{asset ('images/Home/mermelade.jpg')}}" alt="Mermelade">
                     <div class="menu__slider__food__box">
                         <h2 class="menu__slider__food__box__title">Mermelade Selection</h2>
                         <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -353,7 +353,7 @@
                 </div>
 
                 <div class="menu__slider__food">
-                    <img class="menu__slider__food__image" src="IMAGENES/Home/cheese plate.jpg" alt="Cheese">
+                    <img class="menu__slider__food__image" src="{{asset ('images/Home/cheese plate.jpg')}}" alt="Cheese">
                     <div class="menu__slider__food__box">
                         <h2 class="menu__slider__food__box__title">Cheese Plate</h2>
                         <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
