@@ -596,6 +596,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5%;
   }
 }
 .about__intro {
@@ -941,6 +942,11 @@ body {
   text-align: center;
   color: #777777;
 }
+@media screen and (min-width: 1000px) {
+  .about__counter__section__container__users {
+    margin-left: 15%;
+  }
+}
 .about .facilitiesDesktop {
   display: none;
 }
@@ -971,6 +977,11 @@ body {
 .swiper .swiper-pagination-bullet-active {
   background-color: #BEAD8E;
 }
+@media screen and (min-width: 1000px) {
+  .swiper {
+    display: none;
+  }
+}
 
 .swiper-facilities {
   width: 20.9rem;
@@ -990,5 +1001,30 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
+  }
+}
+
+.logoDesktop {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.photoDesktop {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .photoDesktop {
+    display: block;
+    width: 35rem;
+    height: 25rem;
+    margin-right: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .photoContainer {
+    display: flex;
   }
 }/*# sourceMappingURL=about.css.map */

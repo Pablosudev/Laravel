@@ -218,28 +218,32 @@
             <div class="about_conunterDesktop">
                 <div class="about__counter__section__container">
                     <div class="about__counter__section__container__box">
-                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162637.580 1.png')}}" alt="">
+                        <img class = "logoDesktop" src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162637.580 1.png')}}" alt="logo">
                         <p class="about__counter__section__container__box__number">8000</p>
-                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                        <img class = "logoDesktop" src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="logo">
                     </div>
                     <p class="about__counter__section__container__users">Happy Users</p>
                 </div>
                 <div class="about__counter__section__container">
                     <div class="about__counter__section__container__box">
-                        <img src="{{asset ('images/AboutUS/Group.png')}}" alt="">
+                        <img  src="{{asset ('images/AboutUS/Group.png')}}" alt="logo">
                         <p class="about__counter__section__container__box__number">10 M</p>
-                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                        <img  src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="logo">
                     </div>
                     <p class="about__counter__section__container__users">Reviews & Appriciate</p>
                 </div>
                 <div class="about__counter__section__container">
                     <div class="about__counter__section__container__box">
-                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162519.735 1.png')}}" alt="">
+                        <img class = "logoDesktop" src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-03T162519.735 1.png')}}" alt="logo">
                         <p class="about__counter__section__container__box__number">100</p>
-                        <img src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="">
+                        <img class = "logoDesktop" src="{{asset ('images/AboutUS/svg-gobbler - 2022-03-02T132915.921 1.png')}}" alt="logo">
                     </div>
                     <p class="about__counter__section__container__users">Country Coverage</p>
                 </div>
+            </div>
+            <div class = "photoContainer">
+                <img class = "photoDesktop" src="{{asset ('images/AboutUS/piscina.jpg')}}" alt="">
+                <img class = "photoDesktop" src="{{asset ('images/AboutUS/parque.jpg')}}" alt="">
             </div>
             <!--Swiper-->
             <div  class="swiper">
