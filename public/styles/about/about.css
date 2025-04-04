@@ -609,8 +609,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 .about__intro__video {
@@ -794,6 +794,7 @@ body {
 @media screen and (min-width: 1000px) {
   .about__facilities {
     width: 100%;
+    padding-bottom: 5%;
   }
 }
 .about__facilities__title {

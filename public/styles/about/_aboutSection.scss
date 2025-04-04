@@ -15,8 +15,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 20%;
-        padding-right: 20%;
+        margin-left: 20%;
+        margin-right: 20%;
       }
       &__video {
         width: 20.9rem;
@@ -186,6 +186,7 @@
       padding-bottom: 20%;
       @media screen and (min-width: 1000px) {
         width: 100% ;
+        padding-bottom: 5%;
       }
       
   
