@@ -636,6 +636,12 @@ body {
   height: 13.3rem;
   margin-bottom: 2rem;
 }
+@media screen and (min-width: 1000px) {
+  .details__rooms {
+    width: 48rem;
+    height: 30rem;
+  }
+}
 .details__availability {
   font-family: "Archivo", sans-serif;
   font-size: 1.1rem;
@@ -708,9 +714,22 @@ body {
   text-align: left;
   color: #222222;
 }
+@media screen and (min-width: 1000px) {
+  .details__amenities {
+    padding-left: 10%;
+    padding-right: 90%;
+  }
+}
 .details__services {
   display: flex;
   margin-top: 1rem;
+}
+@media screen and (min-width: 1000px) {
+  .details__services {
+    margin-top: 5%;
+    justify-content: space-around;
+    width: 48rem;
+  }
 }
 .details__services__list {
   list-style-type: none;
@@ -727,6 +746,11 @@ body {
 }
 .details__services__list__info__logo {
   margin-right: 0.5rem;
+}
+@media screen and (min-width: 1000px) {
+  .details__services__list {
+    display: none;
+  }
 }
 .details__founder {
   position: relative;
@@ -889,4 +913,60 @@ body {
   text-align: right;
   color: #BDBDBD;
   margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .containerDesktop {
+    position: relative;
+    margin-left: 12%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .containerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 87%;
+    position: absolute;
+    background-color: white;
+    width: 45rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .formDesktop {
+    max-width: 23rem;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .containerForm {
+    display: flex;
+    margin-top: 15%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .sectionDesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-left: 12%;
+    max-width: 48rem;
+  }
+}
+
+.ListDesk {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .ListDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 15%;
+  }
 }/*# sourceMappingURL=roomsDetails.css.map */

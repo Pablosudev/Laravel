@@ -45,6 +45,10 @@
         width: 21rem;
         height: 13.3rem;
         margin-bottom: 2rem;
+        @media screen and (min-width: 1000px) {
+            width: 48rem;
+            height: 30rem;
+        }
     }
     &__availability{
         font-family: $archivo;
@@ -111,11 +115,19 @@
         line-height: 1.87rem;
         text-align: left;
         color: $black2;
-        
+        @media screen and (min-width: 1000px) {
+            padding-left: 10%;
+            padding-right: 90%;
+        }
     }
     &__services{
         display: flex;
         margin-top: 1rem;
+        @media screen and (min-width: 1000px) {
+            margin-top: 5%;
+            justify-content: space-around;
+            width: 48rem;
+        }
         &__list{
             list-style-type: none;
             margin-right: 0.8rem;
@@ -130,6 +142,10 @@
                 &__logo{
                     margin-right: 0.5rem;
                 }
+            }
+            @media screen and (min-width: 1000px) {
+                display: none;
+                
             }
         }
     }
@@ -302,6 +318,55 @@
        
     } 
 }
+.containerDesktop{
+    @media screen and (min-width: 1000px) {
+        position: relative;
+        margin-left: 12%;
+    }
+}
+.containerInfo{
+    @media screen and (min-width: 1000px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        bottom: 87%;
+        position: absolute;
+        background-color: white;
+        width: 45rem;
+    }
+}
+.formDesktop{
+    @media screen and (min-width: 1000px) {
+        max-width: 23rem;
+        margin-left: 5%;
+    }
+}
+.containerForm{
+    @media screen and (min-width: 1000px) {
+        display: flex;
+        margin-top: 15%;
+    }
+}
+.sectionDesktop{
+    @media screen and (min-width: 1000px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-left: 12%;
+        max-width: 48rem;
+    }
+}
+.ListDesk{
+    display: none;
+    @media screen and (min-width: 1000px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 15%;
+    }
+}
+
 
 
 
