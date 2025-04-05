@@ -158,9 +158,12 @@
         }
         &__check{
             position: absolute;
-            right: 34%;
-            top:5%;
-            z-index: 2;
+            right: 33%;
+            top:4%;
+            z-index: 2; 
+            @media screen and (min-width: 1000px) {
+                top: 15%;
+            }
         }
         &__photo{
             width: 9.3rem;
@@ -197,6 +200,18 @@
             text-align: center;
             color: $grey7;
             margin-bottom: 2rem;
+            @media screen and (min-width: 1000px) {
+                padding-left: 9%;
+                padding-right: 9%;
+            }
+        }
+        @media screen and (min-width: 1000px) {
+            width: 23rem;
+            height: 28rem;
+            box-shadow: 0px 14px 24px 0px #BEAD8E45;
+            margin-top: 15%;
+            margin-right: 55%;
+            padding-top: 7%;
         }
     }
     &__cancellation{
@@ -215,18 +230,29 @@
         color: $grey7;
         margin-top: 1rem;
         margin-bottom: 2rem;
+        @media screen and (min-width: 1000px) {
+            margin-bottom: 20%;
+        }
     }
     &__box{
         margin-top: 1rem;
         position: relative;
+        @media screen and (min-width: 1000px) {
+            display: none;
+        }
        
         &__image{
             width: 20.9rem;
             height: 13.6rem;
+            @media screen and (min-width: 1000px) {
+                width: 23rem;
+                height: 15rem;
+            }
         }
         .swiper{
             height: 15.25rem;
             width: 20.9rem;
+           
                 
         .swiper-button-prev{
             color: $black2;
@@ -260,6 +286,12 @@
             bottom: 38%;
             left: 12%;
             z-index: 1 ;
+            @media screen and (min-width: 1000px) {
+                bottom: 39%;
+                max-width:19rem;
+                left: 9%;
+                padding-left: 13%;
+            }
             &__logo{
                 margin-left: 0.5rem;
                 margin-right: 0.5rem;
@@ -277,6 +309,10 @@
             text-align: center;
             color: $black2;
             margin-top: 1rem;
+            @media screen and (min-width: 1000px) {
+                margin-top: 10%;
+                margin-bottom: 5%;
+            }
             
         }
         &__text{
@@ -364,6 +400,35 @@
         flex-direction: column;
         justify-content: space-around;
         margin-right: 15%;
+    }
+}
+.container-cancellation{
+    @media screen and (min-width: 1000px) {
+        margin-top: 15%;
+    }
+}
+.desktop-line{
+    @media screen and (min-width: 1000px) {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+}
+.photos-desktop{
+    @media screen and (min-width: 1000px) {
+        position: relative;
+        max-width: 23rem;
+        display: flex;
+    }
+}
+.card-desktop{
+    @media screen and (min-width: 1000px) {
+        margin-right: 15%;
+    }
+}
+.container-photos{
+    @media screen and (min-width:1000px) {
+        width: 100%;
+        margin-bottom: 10%;
     }
 }
 

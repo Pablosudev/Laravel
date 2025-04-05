@@ -129,11 +129,54 @@
                 <h3 class="details__founder__co">FOUNDER, QUX CO.</h3>
                 <p class="details__founder__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
-            <h4 class="details__cancellation">Cancellation</h4>
-            <img src="{{asset ('images/RoomsDetails/Rectangle 85.png')}}" alt="img line">
-            <p class="details__text">Phasellus volutpat neque a tellus venenatis, a euismod augue facilisis. Fusce ut metus mattis, consequat metus nec, luctus lectus. Pellentesque orci quis hendrerit sed eu dolor. Cancel up to 14 days to get a full refund.</p>
-            <h4 class="details__cancellation">Related Rooms</h4>
-            <img src="{{asset ('images/RoomsDetails/Rectangle 85.png')}}" alt="img line">
+            <div class = "container-cancellation">
+                <h4 class="details__cancellation">Cancellation</h4>
+                <img class = "desktop-line" src="{{asset ('images/RoomsDetails/Rectangle 85.png')}}" alt="img line">
+                <p class="details__text">Phasellus volutpat neque a tellus venenatis, a euismod augue facilisis. Fusce ut metus mattis, consequat metus nec, luctus lectus. Pellentesque orci quis hendrerit sed eu dolor. Cancel up to 14 days to get a full refund.</p>
+                <h4 class="details__cancellation">Related Rooms</h4>
+                <img class = "desktop-line" src="{{asset ('images/RoomsDetails/Rectangle 85.png')}}" alt="img line">
+            </div>  
+            <section class = "container-photos">
+                <div class = "photos-desktop">
+                    <div class = "card-desktop">
+                        <img class="details__box__image" src="{{asset ('images/Rooms/descarga (2).jpg')}}" alt = 'photo room'/>
+                        <div class="details__box__boxLogo">
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Group.png')}}" alt="">
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt=""> 
+                        </div>  
+                        <h2 class="details__box__title">Minimal Duplex Room</h2>
+                        <p class="details__box__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmos tempor.</p>
+                        <div class="details__box__container">
+                            <p class="details__box__container__price">$345/Night</p>
+                            <p class="details__box__container__booking">Booking Now</p>
+                        </div>
+                    </div>
+                <div class = "photos-desktop">
+                    <div  class = "card-desktop">
+                        <img class="details__box__image" src="{{asset ('images/Rooms/descarga (2).jpg')}}" alt = 'photo room'/>
+                        <div class="details__box__boxLogo">
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Group.png')}}" alt="">
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt=""> 
+                            <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt=""> 
+                        </div>  
+                        <h2 class="details__box__title">Minimal Duplex Room</h2>
+                        <p class="details__box__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmos tempor.</p>
+                        <div class="details__box__container">
+                            <p class="details__box__container__price">$345/Night</p>
+                            <p class="details__box__container__booking">Booking Now</p>
+                        </div>
+                    </div>
+              
+            
             <div class="details__box">
                 
                     <!--SWIPER-->
