@@ -1,9 +1,16 @@
 .offers{
     margin-top: 2rem;
+    @media screen and (min-width: 1000px) {
+        margin-bottom: 25%;
+    }
     &__cards{
         padding-left: 5%;
         padding-right: 5%;
         position: relative;
+        @media screen and (min-width:1000px) {
+            position: relative;
+            margin-top: 10%;
+        }
         &__button{
             @include defaultbutton($backgroundColor: $beige,$paddingLeft:21%,$paddingRight:23%);
             margin-bottom: 4rem;
@@ -12,6 +19,10 @@
             height: 10.1rem;
             width: 20.9rem;
             position: relative;
+            @media screen and (min-width: 1000px) {
+                width: 73rem;
+                height: 35rem;
+            }
             
         }
         &__box{
@@ -238,5 +249,20 @@
     height: 23.1rem;
     .swiper-pagination-bullet-active{
       background-color: $beige;
+    }
+  }
+  .container-desk{
+
+    @media screen and (min-width: 1000px) {
+        position: absolute;
+        max-width: 65rem;
+    }
+  }
+  .lineDesk{
+    display: none;
+    @media screen and (min-width: 1000px) {
+        display: block;
+        background-color: #BDAC8D;
+        height: 0.5rem;
     }
   }

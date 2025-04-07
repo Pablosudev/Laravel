@@ -590,10 +590,21 @@ body {
 .offers {
   margin-top: 2rem;
 }
+@media screen and (min-width: 1000px) {
+  .offers {
+    margin-bottom: 25%;
+  }
+}
 .offers__cards {
   padding-left: 5%;
   padding-right: 5%;
   position: relative;
+}
+@media screen and (min-width: 1000px) {
+  .offers__cards {
+    position: relative;
+    margin-top: 10%;
+  }
 }
 .offers__cards__button {
   padding-top: 1.4rem;
@@ -610,6 +621,12 @@ body {
   height: 10.1rem;
   width: 20.9rem;
   position: relative;
+}
+@media screen and (min-width: 1000px) {
+  .offers__cards__room {
+    width: 73rem;
+    height: 35rem;
+  }
 }
 .offers__cards__box {
   position: absolute;
@@ -840,4 +857,22 @@ body {
 }
 .swiper-facilities .swiper-pagination-bullet-active {
   background-color: #BEAD8E;
+}
+
+@media screen and (min-width: 1000px) {
+  .container-desk {
+    position: absolute;
+    max-width: 65rem;
+  }
+}
+
+.lineDesk {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .lineDesk {
+    display: block;
+    background-color: #BDAC8D;
+    height: 0.5rem;
+  }
 }/*# sourceMappingURL=offer.css.map */

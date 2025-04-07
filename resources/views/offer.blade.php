@@ -49,38 +49,41 @@
     <section class="offers">
         <article class="offers__cards">
             <img class="offers__cards__room" src="{{asset ('images/Rooms/descarga (1).jpg')}}" alt="room">
-            <div class="offers__cards__box">
-                <div class="offers__cards__box__price">
-                    <p class="offers__cards__box__price__dolar">$500</p>
-                    <p class="offers__cards__box__price__day">/Night</p>
+            <div class = "container-desk">
+                <div class = "lineDesk"></div>
+                <div class="offers__cards__box">
+                    <div class="offers__cards__box__price">
+                        <p class="offers__cards__box__price__dolar">$500</p>
+                        <p class="offers__cards__box__price__day">/Night</p>
+                    </div>
+                    <div class="offers__cards__box__offer">
+                        <p class="offers__cards__box__offer__dolar">$345</p>
+                        <p class="offers__cards__box__offer__day">/Night</p>
+                    </div>
                 </div>
-                <div class="offers__cards__box__offer">
-                    <p class="offers__cards__box__offer__dolar">$345</p>
-                    <p class="offers__cards__box__offer__day">/Night</p>
+                <h4 class="offers__cards__tipe">DOUBLE BED</h4>
+                <h2 class="offers__cards__model">Luxury Double <br> Bed</h2>
+                <p class="offers__cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="offers__cards__services">
+                    <li class="offers__cards__services__list">
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/aire acondicioando.png')}}" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/breakfast.png')}}" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Cleaning.png')}}" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/grocery.png')}}" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/shop.png')}}" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
+                    </li>
+                    <li class="offers__cards__services__list">
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/wifi.png')}}" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/kitchen.png')}}" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Shower.png')}}" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/single bed.png')}}" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
+                        <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/towels.png')}}" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
+                    </li>
                 </div>
+                <button type="input" class="offers__cards__button">BOOK NOW</button>
             </div>
-            <h4 class="offers__cards__tipe">DOUBLE BED</h4>
-            <h2 class="offers__cards__model">Luxury Double <br> Bed</h2>
-            <p class="offers__cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <div class="offers__cards__services">
-                <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/aire acondicioando.png" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/breakfast.png" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Cleaning.png" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/grocery.png" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/shop.png" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
-                </li>
-                <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/wifi.png" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/kitchen.png" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Shower.png" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/single bed.png" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/towels.png" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
-                </li>
-            </div>
-            <button type="input" class="offers__cards__button">BOOK NOW</button>
-            </article>
-        <article class="offers__cards">
+        </article>
+        <!-- <article class="offers__cards">
             <img class="offers__cards__room" src="{{asset ('images/Rooms/descarga (1).jpg')}}" alt="room">
             <div class="offers__cards__box">
                 <div class="offers__cards__box__price">
@@ -96,19 +99,19 @@
             <h2 class="offers__cards__model">Luxury Double <br> Bed</h2>
             <p class="offers__cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <div class="offers__cards__services">
-                <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/aire acondicioando.png" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/breakfast.png" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Cleaning.png" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/grocery.png" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/shop.png" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
+            <li class="offers__cards__services__list">
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/aire acondicioando.png')}}" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/breakfast.png')}}" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Cleaning.png')}}" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/grocery.png')}}" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/shop.png')}}" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
                 </li>
                 <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/wifi.png" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/kitchen.png" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Shower.png" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/single bed.png" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/towels.png" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/wifi.png')}}" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/kitchen.png')}}" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Shower.png')}}" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/single bed.png')}}" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/towels.png')}}" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
                 </li>
             </div>
             <button type="input" class="offers__cards__button">BOOK NOW</button>
@@ -129,19 +132,19 @@
             <h2 class="offers__cards__model">Luxury Double <br> Bed</h2>
             <p class="offers__cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <div class="offers__cards__services">
-                <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/aire acondicioando.png" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/breakfast.png" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Cleaning.png" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/grocery.png" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/shop.png" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
+            <li class="offers__cards__services__list">
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/aire acondicioando.png')}}" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/breakfast.png')}}" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Cleaning.png')}}" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/grocery.png')}}" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/shop.png')}}" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
                 </li>
                 <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/wifi.png" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/kitchen.png" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Shower.png" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/single bed.png" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/towels.png" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/wifi.png')}}" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/kitchen.png')}}" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Shower.png')}}" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/single bed.png')}}" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/towels.png')}}" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
                 </li>
             </div>
             <button type="input" class="offers__cards__button">BOOK NOW</button>
@@ -162,19 +165,19 @@
             <h2 class="offers__cards__model">Luxury Double <br> Bed</h2>
             <p class="offers__cards__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <div class="offers__cards__services">
-                <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/aire acondicioando.png" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/breakfast.png" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Cleaning.png" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/grocery.png" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/shop.png" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
+            <li class="offers__cards__services__list">
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/aire acondicioando.png')}}" alt="logo air" class="offers__cards__services__list__info__logo">Air conditioner</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/breakfast.png')}}" alt="logo breakfast" class="offers__cards__services__list__info__logo">Breakfast</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Cleaning.png')}}" alt="logo Cleaning" class="offers__cards__services__list__info__logo">Cleaning</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/grocery.png')}}" alt="logo grocery" class="offers__cards__services__list__info__logo">Grocery</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/shop.png')}}" alt="logo shop" class="offers__cards__services__list__info__logo">Shop near</ul>
                 </li>
                 <li class="offers__cards__services__list">
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/wifi.png" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/kitchen.png" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/Shower.png" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/single bed.png" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
-                    <ul class="offers__cards__services__list__info"><img src="IMAGENES/RoomsDetails/towels.png" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/wifi.png')}}" alt="logo wifi" class="offers__cards__services__list__info__logo">High speed WIFI</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/kitchen.png')}}" alt="logo kitchen" class="offers__cards__services__list__info__logo">Kitchen</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/Shower.png')}}" alt="logo Shower" class="offers__cards__services__list__info__logo">Shower</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/single bed.png')}}" alt="logo single bed" class="offers__cards__services__list__info__logo">Single bed</ul>
+                    <ul class="offers__cards__services__list__info"><img src="{{asset ('images/RoomsDetails/towels.png')}}" alt="log towels" class="offers__cards__services__list__info__logo">Towels</ul>
                 </li>
             </div>
             <button  type="input" class="offers__cards__button">BOOK NOW</button>
@@ -220,7 +223,7 @@
                     </div>
                 </div>
             </div>
-        </article>
+        </article> -->
     </section>
     @include ('profile.partials.footer')
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
