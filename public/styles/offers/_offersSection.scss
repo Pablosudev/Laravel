@@ -13,6 +13,7 @@
         @media screen and (min-width:1000px) {
             position: relative;
             margin-top: 10%;
+            margin-bottom: 20%;
         }
         &__button{
             @include defaultbutton($backgroundColor: $beige,$paddingLeft:21%,$paddingRight:23%);

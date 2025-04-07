@@ -607,6 +607,7 @@ body {
   .offers__cards {
     position: relative;
     margin-top: 10%;
+    margin-bottom: 20%;
   }
 }
 .offers__cards__button {
