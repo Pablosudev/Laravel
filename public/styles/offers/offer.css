@@ -593,6 +593,9 @@ body {
 @media screen and (min-width: 1000px) {
   .offers {
     margin-bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .offers__cards {
@@ -616,6 +619,15 @@ body {
   font-family: "Archivo", sans-serif;
   color: #FFFFFF;
   margin-bottom: 4rem;
+}
+@media screen and (min-width: 1000px) {
+  .offers__cards__button {
+    padding-left: 7%;
+    padding-right: 7%;
+    position: absolute;
+    bottom: 4%;
+    left: 4.5%;
+  }
 }
 .offers__cards__room {
   height: 10.1rem;
@@ -689,6 +701,11 @@ body {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+@media screen and (min-width: 1000px) {
+  .offers__cards__tipe {
+    padding-left: 5%;
+  }
+}
 .offers__cards__model {
   font-family: "Old Standard TT", serif;
   font-size: 2.5rem;
@@ -698,6 +715,11 @@ body {
   text-align: left;
   color: #222222;
 }
+@media screen and (min-width: 1000px) {
+  .offers__cards__model {
+    padding-left: 5%;
+  }
+}
 .offers__cards__text {
   font-family: "Roboto", sans-serif;
   font-size: 0.87rem;
@@ -706,6 +728,12 @@ body {
   text-align: left;
   color: #777777;
   margin-top: 1rem;
+}
+@media screen and (min-width: 1000px) {
+  .offers__cards__text {
+    padding-left: 5%;
+    max-width: 60%;
+  }
 }
 .offers__cards__services {
   display: flex;
@@ -862,7 +890,10 @@ body {
 @media screen and (min-width: 1000px) {
   .container-desk {
     position: absolute;
+    background-color: #FFFFFF;
     max-width: 65rem;
+    top: 85%;
+    left: 10%;
   }
 }
 
@@ -874,5 +905,13 @@ body {
     display: block;
     background-color: #BDAC8D;
     height: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .containerDesk-sec {
+    display: flex;
+    padding-right: 5%;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=offer.css.map */

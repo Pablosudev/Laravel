@@ -2,6 +2,9 @@
     margin-top: 2rem;
     @media screen and (min-width: 1000px) {
         margin-bottom: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     &__cards{
         padding-left: 5%;
@@ -14,6 +17,13 @@
         &__button{
             @include defaultbutton($backgroundColor: $beige,$paddingLeft:21%,$paddingRight:23%);
             margin-bottom: 4rem;
+            @media screen and (min-width:1000px) {
+                padding-left: 7%;
+                padding-right: 7%;
+                position: absolute;
+                bottom: 4%;
+                left: 4.5%;
+            }
         }
         &__room{
             height: 10.1rem;
@@ -86,6 +96,9 @@
             color: $grey7;
             margin-top: 2rem;
             margin-bottom: 1rem;
+            @media screen and (min-width:1000px) {
+                padding-left: 5%;
+            }
         }
         &__model{
             font-family: $old;
@@ -95,6 +108,9 @@
             letter-spacing: -0.09rem;
             text-align: left;
             color: $black2;
+            @media screen and (min-width:1000px) {
+                padding-left: 5%;
+            }
         }
         &__text{
             font-family: $roboto;
@@ -104,6 +120,10 @@
             text-align: left;
             color: $grey7;
             margin-top: 1rem;
+            @media screen and (min-width:1000px) {
+                padding-left: 5%;
+                max-width: 60%;
+            }
         }
         &__services{
             display: flex;
@@ -255,7 +275,10 @@
 
     @media screen and (min-width: 1000px) {
         position: absolute;
+        background-color: #FFFFFF;
         max-width: 65rem;
+        top: 85%;
+        left: 10%;
     }
   }
   .lineDesk{
@@ -264,5 +287,13 @@
         display: block;
         background-color: #BDAC8D;
         height: 0.5rem;
+    }
+  }
+  .containerDesk-sec{
+
+    @media screen and (min-width:1000px) {
+        display: flex;
+        padding-right: 5%;
+        justify-content: space-between;
     }
   }
