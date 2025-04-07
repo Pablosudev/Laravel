@@ -206,30 +206,95 @@
         <article  class="offers__popular">
             <h4 class="offers__popular__list">POPULAR LIST</h4>
             <h2 class="offers__popular__rooms">Popular Rooms</h2>
-            <div class="offers__popular__box">
-                    <!--SWIPER-->
-                    <div class="swiper swiper-offers">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide"><img class="offers__popular__box__slide" src="{{asset ('images/Rooms/habitacion1.jpg')}}" alt="room"></div>
-                          <div class="swiper-slide"><img class="offers__popular__box__slide" src="{{asset ('images/Rooms/habitacion2.png')}}" alt="room"></div>
-                          <div class="swiper-slide"><img class="offers__popular__box__slide" src="{{asset ('images/Rooms/habitacion3.jpg')}}" alt="room"></div>
-                          
+            <!-- POPULAR BOX DESKTOP -->
+            <div class = "popular-box-desktop">
+                <div class = "cardDesktop">
+                    <img class="offers__popular__box__slide" src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room">
+                    <div class="offers__popular__box__boxLogo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                    </div>
+                    <div class="offers__popular__box__container">
+                        <h2 class="offers__popular__box__container__room">Minimal Duplex Room</h2>
+                        <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                        <div class="offers__popular__box__container__price">
+                            <p class="offers__popular__box__container__price__pricing">$345/Night</p>
+                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
                         </div>
-                       
-                      
-                        
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                      
-                        
-                      </div>
+                    </div>
+                </div>
+
+                <div class = "cardDesktop">
+                    <img class="offers__popular__box__slide" src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room">
+                    <div class="offers__popular__box__boxLogo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                    </div>
+                    <div class="offers__popular__box__container">
+                        <h2 class="offers__popular__box__container__room">Minimal Duplex Room</h2>
+                        <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                        <div class="offers__popular__box__container__price">
+                            <p class="offers__popular__box__container__price__pricing">$345/Night</p>
+                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "cardDesktop">
+                    <img class="offers__popular__box__slide" src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room">
+                    <div class="offers__popular__box__boxLogo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                        <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                    </div>
+                    <div class="offers__popular__box__container">
+                        <h2 class="offers__popular__box__container__room">Minimal Duplex Room</h2>
+                        <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                        <div class="offers__popular__box__container__price">
+                            <p class="offers__popular__box__container__price__pricing">$345/Night</p>
+                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+            <!-- BOX SLIDE -->
+            <div class  = "slide">
+                <div class="offers__popular__box">
+                        <!--SWIPER-->
+                        <div class="swiper swiper-offers">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img class="offers__popular__box__slide" src="{{asset ('images/Rooms/habitacion1.jpg')}}" alt="room"></div>
+                            <div class="swiper-slide"><img class="offers__popular__box__slide" src="{{asset ('images/Rooms/habitacion2.png')}}" alt="room"></div>
+                            <div class="swiper-slide"><img class="offers__popular__box__slide" src="{{asset ('images/Rooms/habitacion3.jpg')}}" alt="room"></div>
+                            
+                            </div>
+
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        
+                        </div>
+                </div>
                 <div class="offers__popular__box__boxLogo">
                     <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
                     <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                    <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Group.png"')}} alt="car logo">
+                    <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
                     <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
                     <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
                     <img  class="offers__popular__box__boxLogo__img" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
@@ -244,7 +309,8 @@
                     </div>
                 </div>
             </div>
-        </article> -->
+            
+        </article> 
     </section>
     @include ('profile.partials.footer')
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
