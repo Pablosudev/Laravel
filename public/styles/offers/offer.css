@@ -592,7 +592,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .offers {
-    margin-bottom: 25%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
