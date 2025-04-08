@@ -246,12 +246,12 @@
                 <img class = "photoDesktop" src="{{asset ('images/AboutUS/parque.jpg')}}" alt="">
             </div>
             <!--Swiper-->
-            <div  class="swiper">
+            <div  class="swiper-about">
                         
                 <div class="swiper-wrapper">
                         
-                    <div class="swiper-slide"><img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="photo room"></div>
-                    <div class="swiper-slide"><img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="photo room"></div>
+                    <div class="swiper-slide"><img class = "imgSlide" src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="photo room"></div>
+                    <div class="swiper-slide"><img class = "imgSlide" src="{{asset ('images/Rooms/Room2.jpg')}}" alt="photo room"></div>
                     ...
                     </div>
                         
@@ -266,7 +266,7 @@
     </section>
     @include ('profile.partials.footer')
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script/about.js"></script>
-    <script src="script/navbar.js"></script>
+    <script src="{{asset ('js/swipper/about.js')}}"></script>
+    <script src="{{asset ('js/swipper/navbar.js')}}"></script>
 </body>
 </html>

@@ -409,7 +409,8 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .rooms .swiper {
-    display: none;
+    width: 73rem;
+    height: 19rem;
   }
 }
 .rooms .swiper .swiper-pagination-bullet {

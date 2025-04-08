@@ -6,7 +6,9 @@
     <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
     <link href="{{ asset('styles/app.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -503,8 +505,9 @@
         
     </section>
     @include('profile.partials.footer')
-    <script src="script/navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script/home.js"></script>
+    <script src="{{asset ('js/swipper/navbar.js')}}"></script>
+    <script src="{{ asset ('js/swipper/home.js')}}"></script>
+
 </body>
 </html>

@@ -47,26 +47,7 @@
         </div>
     </header>
     <section class="rooms">
-        <article class="rooms__card">
-            <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
-            <div class = "containerRoom-desk">
-                            <div class="rooms__card__boxLogo">
-                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
-                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
-                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
-                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
-                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
-                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
-                            </div>
-                            <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                            <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-        </article>
+       
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">

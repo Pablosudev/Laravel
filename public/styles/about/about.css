@@ -970,18 +970,23 @@ body {
   }
 }
 
-.swiper {
+.swiper-about {
   width: 20.9rem;
   height: 13.6rem;
   --swiper-navigation-size: 0rem;
 }
-.swiper .swiper-pagination-bullet-active {
+.swiper-about .swiper-pagination-bullet-active {
   background-color: #BEAD8E;
 }
 @media screen and (min-width: 1000px) {
-  .swiper {
+  .swiper-about {
     display: none;
   }
+}
+
+.imgSlide {
+  width: 20.9rem;
+  height: 13.6rem;
 }
 
 .swiper-facilities {

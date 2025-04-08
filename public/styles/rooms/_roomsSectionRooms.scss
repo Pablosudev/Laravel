@@ -10,7 +10,8 @@
 
     .swiper{
         @media screen and (min-width:1000px) {
-            display: none;
+         width: 73rem;
+         height: 19rem;
         }
         .swiper-pagination-bullet {
             width: 20px;

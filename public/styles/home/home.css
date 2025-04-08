@@ -880,6 +880,12 @@ body {
 .rooms__slider .swiper-food .swiper-button-next:hover {
   background-color: #BEAD8E;
 }
+@media screen and (min-width: 1000px) {
+  .rooms__slider .swiper-food {
+    width: 23.39rem;
+    height: 28.6rem;
+  }
+}
 .rooms__slider__card {
   position: absolute;
   background-color: #FFFFFF;
@@ -1292,6 +1298,7 @@ body {
 @media screen and (min-width: 1000px) {
   .menu__restaurant .swiper-restaurant {
     width: 23rem;
+    height: 20rem;
   }
 }
 .menu__restaurant .swiper-restaurant .swiper-pagination-bullet-active {
