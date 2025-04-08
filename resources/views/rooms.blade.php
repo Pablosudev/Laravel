@@ -47,9 +47,9 @@
         </div>
     </header>
     <section class="rooms">
-    <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
-                        <div class = "containerRoom-desk">
+        <article class="rooms__card">
+            <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+            <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
                                 <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
@@ -66,7 +66,7 @@
                             <p class="rooms__card__date__price">$345/Night</p>
                             <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
-                    </article>
+        </article>
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
@@ -74,92 +74,82 @@
                 <div class="swiper-slide">
                     <article class="rooms__card">
                         <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
-                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
-                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/CibAGWB8z6i7U070F6mY_large.jpg')}}" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                        <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
-                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
-                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/descarga (1).jpg')}}" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
-                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
-                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/descarga (2).jpg')}}" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
-                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
-                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/descarga (3).jpg')}}" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
-                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
-                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -180,11 +170,111 @@
                             <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
                 </div>
                 <!--Slide2-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
                         <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
                             <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
                             <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
@@ -202,108 +292,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/CibAGWB8z6i7U070F6mY_large.jpg')}}" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
-                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
-                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
-                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
-                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
                 <!--Slide3-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -313,108 +413,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
                 <!--Slide4-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -424,108 +534,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
                 <!--Slide5-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -535,108 +655,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
                 <!--Slide6-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -646,108 +776,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
                 <!--Slide7-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -757,108 +897,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                    <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                    <div class="rooms__card__boxLogo">
-                        <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                        <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                        <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                        <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                        <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                        <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                        <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                    </div>
-                    <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                    <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                    <div class="rooms__card__date">
-                        <p class="rooms__card__date__price">$345/Night</p>
-                        <p class="rooms__card__date__booking">Booking Now</p>
-                    </div>
                     </article>
                 </div>
                 <!--Slide8-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -868,108 +1018,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
                 <!--Slide9-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -979,108 +1139,118 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
                 <!--Slide10-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/AizheRK0tt4cDjSRwSea_large.jpg" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
+                        </div>
+                    </article>
+                    <article class="rooms__card">
+                        <img src="{{asset ('images/Rooms/descarga.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
+                            <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                            <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                            <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                            <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                            <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
                         </div>
                         <h2 class="rooms__card__title">Minimal Duplex Room</h2>
                         <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
@@ -1090,93 +1260,23 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/CibAGWB8z6i7U070F6mY_large.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (1).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (2).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga (3).jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
-                        </div>
-                    </article>
-                    <article class="rooms__card">
-                        <img src="IMAGENES/Rooms/descarga.jpg" alt="room image" class="rooms__card__img">
-                        <div class="rooms__card__boxLogo">
-                            <img src="IMAGENES/SectionRooms/8725460_bed_icon 1.png" alt="bed logo">
-                            <img src="IMAGENES/SectionRooms/Vector (1).png" alt="wifi logo"> 
-                            <img src="IMAGENES/SectionRooms/Group.png" alt="car logo">
-                            <img src="IMAGENES/SectionRooms/Layer_1.png" alt="snow logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (2).png" alt="gym logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (3).png" alt="smoke logo"> 
-                            <img src="IMAGENES/SectionRooms/Vector (4).png" alt="cocktail log"> 
-                        </div>
-                        <h2 class="rooms__card__title">Minimal Duplex Room</h2>
-                        <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                        <div class="rooms__card__date">
-                            <p class="rooms__card__date__price">$345/Night</p>
-                            <p class="rooms__card__date__booking">Booking Now</p>
+                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <div class = "containerRoom-desk">
+                            <div class="rooms__card__boxLogo">
+                                <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
+                                <img src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt="wifi logo"> 
+                                <img src="{{asset ('images/SectionRooms/Group.png')}}" alt="car logo">
+                                <img src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt="snow logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt="gym logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt="smoke logo"> 
+                                <img src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt="cocktail log"> 
+                            </div>
+                                <h2 class="rooms__card__title">Minimal Duplex Room</h2>
+                                <p class="rooms__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="rooms__card__date">
+                                <p class="rooms__card__date__price">$345/Night</p>
+                                <p class="rooms__card__date__booking">Booking Now</p>
                         </div>
                     </article>
                 </div>
