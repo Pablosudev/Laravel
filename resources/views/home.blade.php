@@ -163,6 +163,26 @@
                         </div>
                     </div>
                 </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div>
+                        <img  class="rooms__slider__image" src="{{asset ('images/Rooms/Room2.jpg')}}" alt="image room">
+                        <div class="rooms__slider__boxLogo">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Group.png')}}" alt="">
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt=""> 
+                            <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt=""> 
+                        </div>  
+                        <div class="rooms__slider__card">
+                            <h2 class="rooms__slider__card__title">Minimal Duplex Room</h2>
+                            <p class="rooms__slider__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <p class="rooms__slider__card__price">$345/Night</p>
+                        </div>
+                    </div>
+                </div>
                   
                 </div>
                 <!-- If we need navigation buttons -->
