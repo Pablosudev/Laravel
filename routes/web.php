@@ -44,6 +44,9 @@ Route::middleware('auth')->group(function () {
     Route::get('roomDetails', function () {
         return view('roomDetails');
     })->name('roomDetails');
+    Route::get('roomGrid', function () {
+        return view('roomGrid');
+    })->name('roomGrid');
 });
 
 

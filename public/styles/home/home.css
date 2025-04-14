@@ -822,7 +822,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .rooms__slider {
-    width: 78rem;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -858,8 +858,8 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .rooms__slider__image {
-    width: 100%;
-    height: auto;
+    width: 48rem;
+    height: 31rem;
   }
 }
 .rooms__slider .swiper-food {

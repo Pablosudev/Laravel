@@ -27,7 +27,7 @@
         position:relative;
         width: 19.9rem;
         @media screen and (min-width: 1000px) {
-            width: 78rem;
+            width: 100%;
             position: relative;
             display: flex;
             justify-content: center;
@@ -60,8 +60,8 @@
             width: 23.9rem;
             height: 15.25rem;
             @media screen and (min-width: 1000px) {
-                width: 100%;
-                height: auto; 
+                width: 48rem;
+                height: 31rem; 
             }
         }
         .swiper-food{

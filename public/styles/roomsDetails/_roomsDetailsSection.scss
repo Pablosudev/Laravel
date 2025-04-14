@@ -324,6 +324,10 @@
             color: $grey7;
             margin-top: 1rem;
             margin-bottom: 1rem;
+            @media screen and (min-width:1000px) {
+                padding-left: 15%;
+                padding-right: 15%;
+            }
             
         }
         &__container{
@@ -431,7 +435,28 @@
         margin-bottom: 10%;
     }
 }
-
+.container-swipper{
+    @media screen and (min-width:1000px) {
+        display: flex;
+    }
+}
+.card-desktopGrid{
+    @media screen and (min-width:1000px) {
+        max-width: 23rem;
+        position: relative;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+.rooms-grid{
+    @media screen and (min-width:1000px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+}
 
 
 
