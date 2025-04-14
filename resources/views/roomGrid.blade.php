@@ -1253,8 +1253,8 @@
         </div>
     </section>
     @include ('profile.partials.footer')
-    <script src="script/navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script/roomsDetails.js"></script>
+    <script src="{{asset ('js/swipper/navbar.js')}}"></script>
+    <script src="{{asset ('js/swipper/grid.js')}}"></script>
 </body>
 </html>

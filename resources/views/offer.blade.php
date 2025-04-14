@@ -314,7 +314,7 @@
     </section>
     @include ('profile.partials.footer')
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script/offers.js"></script>
-    <script src="script/navbar.js"></script>
+    <script src="{{asset ('js/swipper/navbar.js')}}"></script>
+    <script src="{{asset ('js/swipper/offers.js')}}"></script>
 </body>
 </html>

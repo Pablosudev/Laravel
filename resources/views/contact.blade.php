@@ -119,5 +119,5 @@
         <button class="form__button">SEND</button>
     </section>
     @include('profile.partials.footer')
-    <script src="script/navbar.js"></script>
+    <script src="{{asset ('js/swipper/navbar.js')}}"></script>
 </body>

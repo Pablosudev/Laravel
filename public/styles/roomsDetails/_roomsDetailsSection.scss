@@ -455,7 +455,30 @@
         justify-content: center;
         align-items: center;
         margin-top: 5%;
+        
     }
+}
+
+.swiper-grid{
+
+.swiper-button-prev{
+    color: $black2;
+    padding: 1rem;
+    background-color: $whiteF;
+    --swiper-navigation-size: 1rem;
+    &:hover{
+        background-color: $beige;
+    }
+    }
+.swiper-button-next{
+    color: $black2;
+    padding: 1rem;
+    background-color: $whiteF;
+    --swiper-navigation-size: 1rem;
+    &:hover{
+        background-color: $beige;
+    }
+}
 }
 
 

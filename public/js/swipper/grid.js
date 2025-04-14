@@ -1,6 +1,7 @@
 const swiper = new Swiper('.swiper-grid', {
     // Optional parameters
-    direction: 'vertical',
+    
+    direction: 'horizontal',
     loop: true,
   
     // If we need pagination

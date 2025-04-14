@@ -1085,4 +1085,23 @@ body {
     align-items: center;
     margin-top: 5%;
   }
+}
+
+.swiper-grid .swiper-button-prev {
+  color: #222222;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  --swiper-navigation-size: 1rem;
+}
+.swiper-grid .swiper-button-prev:hover {
+  background-color: #BEAD8E;
+}
+.swiper-grid .swiper-button-next {
+  color: #222222;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  --swiper-navigation-size: 1rem;
+}
+.swiper-grid .swiper-button-next:hover {
+  background-color: #BEAD8E;
 }/*# sourceMappingURL=roomsDetails.css.map */
