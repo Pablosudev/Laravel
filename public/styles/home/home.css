@@ -862,7 +862,7 @@ body {
     padding-right: 1%;
     padding-top: 0%;
     padding-bottom: 0%;
-    left: 13%;
+    left: 33%;
   }
 }
 .rooms__slider__boxLogo__logo {
@@ -933,8 +933,8 @@ body {
   .rooms__slider__card {
     width: 43rem;
     height: 11rem;
-    top: 80%;
-    left: 2%;
+    top: 95%;
+    left: 5%;
   }
 }
 .rooms__slider__card__title {
