@@ -650,6 +650,15 @@ body {
   margin-right: 1rem;
   list-style-type: none;
 }
+@media screen and (min-width: 1000px) {
+  .footer__section__article__service__options__listServices {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 3rem;
+    color: #777777;
+  }
+}
 .footer__section__article__service__options__listServices__activity {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -697,7 +706,7 @@ body {
 @media screen and (min-width: 1000px) {
   .footer__back {
     width: 100%;
-    height: 34rem;
+    height: 30rem;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -705,7 +714,6 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #f8f8f8;
-    margin-top: 8rem;
     align-items: center;
     width: 100%;
   }
