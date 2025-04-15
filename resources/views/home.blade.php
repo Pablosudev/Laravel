@@ -488,6 +488,11 @@
               
             </div>
         </div>
+        <div class = menu__imgDesktop>
+            <img class="menu__imgDesktop__img" src="{{asset ('images/Home/restaurante 1.jpg')}}" alt="Restaurant 1 ">
+            <img class="menu__imgDesktop__img" src="{{asset ('images/Home/restaurante 2.jpg')}}" alt="Restaurant 2">
+            <img class="menu__imgDesktop__img" src="{{asset ('images/Home/restaurante3.jpg')}}" alt="Restaurant 3">
+        </div>
     </section>
     <section class="info">
         <div class="info__section">

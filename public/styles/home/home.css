@@ -911,6 +911,11 @@ body {
 .rooms__slider .swiper-food .swiper-button-prev:hover {
   background-color: #BEAD8E;
 }
+@media screen and (min-width: 1000px) {
+  .rooms__slider .swiper-food .swiper-button-prev {
+    display: none;
+  }
+}
 .rooms__slider .swiper-food .swiper-button-next {
   color: #222222;
   padding: 1rem;
@@ -920,6 +925,11 @@ body {
 }
 .rooms__slider .swiper-food .swiper-button-next:hover {
   background-color: #BEAD8E;
+}
+@media screen and (min-width: 1000px) {
+  .rooms__slider .swiper-food .swiper-button-next {
+    display: none;
+  }
 }
 .rooms__slider__card {
   position: absolute;
@@ -1361,8 +1371,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .menu__restaurant .swiper-restaurant {
-    width: 23rem;
-    height: 20rem;
+    display: none;
   }
 }
 .menu__restaurant .swiper-restaurant .swiper-pagination-bullet-active {
@@ -1438,6 +1447,23 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 5%;
+  }
+}
+.menu__imgDesktop {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .menu__imgDesktop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-right: 8%;
+  }
+  .menu__imgDesktop__img {
+    width: 23rem;
+    height: 23rem;
   }
 }
 

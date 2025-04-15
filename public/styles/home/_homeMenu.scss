@@ -64,6 +64,7 @@
             width: 100%;
             height: 34rem;
             margin-bottom: 4rem;
+            
             .swiper-button-prev{
                 color: $black2;
                 padding: 1rem;
@@ -165,8 +166,7 @@
             height: 20.9rem;
             margin-bottom: 4rem;
             @media screen and (min-width: 1000px) {
-                width: 23rem;
-                height: 20rem;
+               display: none;
             }
             .swiper-pagination-bullet-active{
                 background-color: $beige;
@@ -227,7 +227,7 @@
             width: 23rem;
             height: 23rem;
         }
-       
+    
     }
     &__foodDesk{
         display: none;
@@ -242,5 +242,22 @@
                 margin-right: 5%;
             }
         }
+    }
+    &__imgDesktop{
+        display: none;
+        @media screen and (min-width: 1000px) {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding-right: 8%;
+            &__img{
+                width: 23rem;
+                height: 23rem;
+                
+            }
+        }
+        
     }
 }
