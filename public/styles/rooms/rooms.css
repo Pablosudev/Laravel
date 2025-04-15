@@ -410,7 +410,7 @@ body {
 @media screen and (min-width: 1000px) {
   .rooms .swiper {
     width: 73rem;
-    height: 19rem;
+    height: auto;
   }
 }
 .rooms .swiper .swiper-pagination-bullet {
@@ -455,6 +455,8 @@ body {
 @media screen and (min-width: 1000px) {
   .rooms__card {
     display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 .rooms__card__img {

@@ -11,8 +11,9 @@
     .swiper{
         @media screen and (min-width:1000px) {
          width: 73rem;
-         height: 19rem;
+         height: auto;
         }
+        
         .swiper-pagination-bullet {
             width: 20px;
             height: 20px;
@@ -54,6 +55,8 @@
         padding-right: 5%;
         @media screen and (min-width: 1000px) {
             display: flex;
+            margin-top: 5%;
+            margin-bottom: 5%;
         }
         &__img{
             width: 20.9rem;

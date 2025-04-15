@@ -17,10 +17,10 @@
         <nav class="navbar">
             <img id="imgButton" src="{{ asset('images/NavBar/1.png')}}" alt="icono menu" class="navbar__menu">
             <div id="navbarList" class="navbar__dropdown">
-                <a class="navbar__dropdown__page" href="about.html">About Us</a>
-                <a class="navbar__dropdown__page" href="rooms.html">Rooms</a>
-                <a class="navbar__dropdown__page" href="offers.html">Offers</a>
-                <a class="navbar__dropdown__page" href="contact.html">Contact</a>
+                <a class="navbar__dropdown__page" href="about">About Us</a>
+                <a class="navbar__dropdown__page" href="rooms">Rooms</a>
+                <a class="navbar__dropdown__page" href="offer">Offers</a>
+                <a class="navbar__dropdown__page" href="contact">Contact</a>
             </div>
             <div id="logoNavbar" class="navbar__logo">
                 <div class="navbar__logo__box">
