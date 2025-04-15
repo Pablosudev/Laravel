@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 
-    <link href="{{ asset('styles/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('styles/home/home.css') }}" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -105,7 +105,7 @@
                 <div class="swiper-wrapper">
                 <!--Slide1-->
                 <div class="swiper-slide">
-                    <div>
+                    <div class = "deskSwiper">
                         <img  class="rooms__slider__image" src="{{asset ('images/Rooms/Room2.jpg')}}" alt="image room">
                         <div class="rooms__slider__boxLogo">
                             <img class="rooms__slider__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">

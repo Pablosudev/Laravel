@@ -803,6 +803,8 @@ body {
 @media screen and (min-width: 1000px) {
   .rooms {
     padding-top: 14%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
 .rooms__page {
@@ -852,6 +854,17 @@ body {
   left: 18%;
   z-index: 1;
 }
+@media screen and (min-width: 1000px) {
+  .rooms__slider__boxLogo {
+    width: 19rem;
+    height: 3rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    left: 13%;
+  }
+}
 .rooms__slider__boxLogo__logo {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -872,17 +885,21 @@ body {
 }
 .rooms__slider .swiper-food {
   width: 23.39rem;
-  height: 28.6rem;
+  height: 31rem;
 }
 @media screen and (min-width: 1000px) {
   .rooms__slider .swiper-food {
     width: 100%;
-    height: 31rem;
+    height: 38rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+}
+.rooms__slider .swiper-food .swiper-slide {
+  width: 48rem;
+  height: 31rem;
 }
 .rooms__slider .swiper-food .swiper-button-prev {
   color: #222222;
@@ -912,6 +929,14 @@ body {
   left: 6%;
   z-index: 1;
 }
+@media screen and (min-width: 1000px) {
+  .rooms__slider__card {
+    width: 43rem;
+    height: 11rem;
+    top: 80%;
+    left: 2%;
+  }
+}
 .rooms__slider__card__title {
   font-family: "Old Standard TT", serif;
   font-weight: 400;
@@ -922,6 +947,12 @@ body {
   padding-top: 1.5rem;
   text-align: center;
 }
+@media screen and (min-width: 1000px) {
+  .rooms__slider__card__title {
+    text-align: start;
+    padding-left: 4%;
+  }
+}
 .rooms__slider__card__text {
   font-family: "Roboto", sans-serif;
   font-size: 0 0.87rem;
@@ -930,6 +961,13 @@ body {
   text-align: center;
   color: #777777;
 }
+@media screen and (min-width: 1000px) {
+  .rooms__slider__card__text {
+    text-align: start;
+    padding-left: 4%;
+    padding-right: 30%;
+  }
+}
 .rooms__slider__card__price {
   font-family: "Archivo";
   font-weight: 700;
@@ -937,6 +975,13 @@ body {
   line-height: 2.68rem;
   text-align: center;
   color: #BEAD8E;
+}
+@media screen and (min-width: 1000px) {
+  .rooms__slider__card__price {
+    position: absolute;
+    right: 4%;
+    top: 28%;
+  }
 }
 .rooms__boxVideo {
   background-color: #222222;
@@ -950,6 +995,7 @@ body {
   .rooms__boxVideo {
     position: relative;
     height: 35rem;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1000px) {

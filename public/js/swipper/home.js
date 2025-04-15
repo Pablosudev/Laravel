@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper-food', {
     slidesPerView: 'auto',
     spaceBetween: 30,
-    centeredSlides:true,
+    centeredSlides: true,
     direction: 'horizontal',
     loop: true,
   
