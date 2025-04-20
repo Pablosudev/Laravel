@@ -332,11 +332,11 @@
         <h2 class="menu__section">Our Foods Menu</h2>
 
         <article class= "menu__foodDesk">
-            <div class = "foodDesktopSlide">
-                <div class="swiper swiper-menuDesktop">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="menu__foodDesk__container">
+            
+            <div class="swiper swiper-menuDesktop">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="menu__foodDesk__container">
                                     <div class="menu__slider__food">
                                         <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
                                         <div class="menu__slider__food__box">
@@ -359,61 +359,9 @@
                                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                                         </div>
                                     </div>
-                            </div>
-
-                            <div class="menu__foodDesk__container">
-                                    <div class="menu__slider__food">
-                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/Parfait.jpeg')}}" alt="Parfait">
-                                        <div class="menu__slider__food__box">
-                                            <h2 class="menu__slider__food__box__title">Fruit Parfait</h2>
-                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu__slider__food">
-                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/mermelade.jpg')}}" alt="Mermelade">
-                                        <div class="menu__slider__food__box">
-                                            <h2 class="menu__slider__food__box__title">Mermelade Selection</h2>
-                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu__slider__food">
-                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/cheese plate.jpg')}}" alt="Cheese">
-                                        <div class="menu__slider__food__box">
-                                            <h2 class="menu__slider__food__box__title">Cheese Plate</h2>
-                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
-                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="menu__foodDesk__container">
-                                    <div class="menu__slider__food">
-                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
-                                        <div class="menu__slider__food__box">
-                                            <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
-                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu__slider__food">
-                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
-                                        <div class="menu__slider__food__box">
-                                            <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
-                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu__slider__food">
-                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
-                                        <div class="menu__slider__food__box">
-                                            <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
-                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="menu__foodDesk__container">
+                        <div class="menu__foodDesk__container">
                                     <div class="menu__slider__food">
                                         <img class="menu__slider__food__image" src="{{asset ('images/Home/Parfait.jpeg')}}" alt="Parfait">
                                         <div class="menu__slider__food__box">
@@ -437,10 +385,60 @@
                                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                                         </div>
                                     </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="menu__foodDesk__container">
+                                <div class="menu__slider__food">
+                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
+                                        <div class="menu__slider__food__box">
+                                            <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
+                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                                        </div>
                                 </div>
-                            </div> 
-                    
-                            <div class="menu__foodDesk__container">
+                                <div class="menu__slider__food">
+                                    <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
+                                    <div class="menu__slider__food__box">
+                                        <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
+                                        <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+
+                                <div class="menu__slider__food">
+                                    <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
+                                    <div class="menu__slider__food__box">
+                                        <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
+                                        <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="menu__foodDesk__container">
+                                    <div class="menu__slider__food">
+                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/Parfait.jpeg')}}" alt="Parfait">
+                                        <div class="menu__slider__food__box">
+                                            <h2 class="menu__slider__food__box__title">Fruit Parfait</h2>
+                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu__slider__food">
+                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/mermelade.jpg')}}" alt="Mermelade">
+                                        <div class="menu__slider__food__box">
+                                            <h2 class="menu__slider__food__box__title">Mermelade Selection</h2>
+                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu__slider__food">
+                                        <img class="menu__slider__food__image" src="{{asset ('images/Home/cheese plate.jpg')}}" alt="Cheese">
+                                        <div class="menu__slider__food__box">
+                                            <h2 class="menu__slider__food__box__title">Cheese Plate</h2>
+                                            <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                                        </div>
+                                    </div>
+                        </div>
+
+                        <!-- <div class="menu__foodDesk__container">
                                 <div class="menu__slider__food">
                                     <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
                                     <div class="menu__slider__food__box">
@@ -463,12 +461,10 @@
                                         <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-            </div>
-
+            </div> 
              <!-- <div class="menu__foodDesk__container">
                 <div class="menu__slider__food">
                     <img class="menu__slider__food__image" src="{{asset ('images/Home/Parfait.jpeg')}}" alt="Parfait">
@@ -521,138 +517,6 @@
                         <div class="menu__slider__food__box">
                             <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
                             <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- 1º SlideDesktop -->
-                <div class="swiper-slideDesktop">
-                    <div class="menu__foodDesk__container">
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="menu__foodDesk__container">
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/Parfait.jpeg')}}" alt="Parfait">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Fruit Parfait</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/mermelade.jpg')}}" alt="Mermelade">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Mermelade Selection</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/cheese plate.jpg')}}" alt="Cheese">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Cheese Plate</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- 2º SlideDesktop -->
-                <div class="swiper-slideDesktop">
-                    <div class="menu__foodDesk__container">
-                            <div class="menu__slider__food">
-                                <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
-                                <div class="menu__slider__food__box">
-                                    <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
-                                    <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                            </div>
-                            <div class="menu__slider__food">
-                                <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
-                                <div class="menu__slider__food__box">
-                                    <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
-                                    <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                            </div>
-
-                            <div class="menu__slider__food">
-                                <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
-                                <div class="menu__slider__food__box">
-                                    <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
-                                    <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="menu__foodDesk__container">
-                            <div class="menu__slider__food">
-                                <img class="menu__slider__food__image" src="{{asset ('images/Home/Parfait.jpeg')}}" alt="Parfait">
-                                <div class="menu__slider__food__box">
-                                    <h2 class="menu__slider__food__box__title">Fruit Parfait</h2>
-                                    <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                            </div>
-
-                            <div class="menu__slider__food">
-                                <img class="menu__slider__food__image" src="{{asset ('images/Home/mermelade.jpg')}}" alt="Mermelade">
-                                <div class="menu__slider__food__box">
-                                    <h2 class="menu__slider__food__box__title">Mermelade Selection</h2>
-                                    <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                            </div>
-
-                            <div class="menu__slider__food">
-                                <img class="menu__slider__food__image" src="{{asset ('images/Home/cheese plate.jpg')}}" alt="Cheese">
-                                <div class="menu__slider__food__box">
-                                    <h2 class="menu__slider__food__box__title">Cheese Plate</h2>
-                                    <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-            
-                    <div class="menu__foodDesk__container">
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/eggs.jpg')}}" alt="eggs&bacon">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Eggs & Bacon</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/coffee.jpg')}}" alt="TeaOrCoffee">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Tea or Coffee</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        <div class="menu__slider__food">
-                            <img class="menu__slider__food__image" src="{{asset ('images/Home/chia3.jpg')}}" alt="Chia">
-                            <div class="menu__slider__food__box">
-                                <h2 class="menu__slider__food__box__title">Chia Oatmeal</h2>
-                                <p class="menu__slider__food__box__text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -176,27 +176,26 @@
                 display: none;
                 @media screen and (min-width: 1000px) {
                     color: $black2;
-                padding: 1rem;
-                padding-top: 2%;
-                background-color: $whiteF8;
-                position: absolute;
-                top: var(--swiper-navigation-top-offset, 0%);
-                width: calc(var(--swiper-navigation-size) / 44* 27);
-                height: var(--swiper-navigation-size);
-                left: auto;
-                right: 4%;
-                z-index: 10;
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                --swiper-navigation-size: 1rem;
-                &:hover{
-                    background-color: $beige;
+                    padding: 1rem;
+                    padding-top: 2%;
+                    background-color: $whiteF8;
+                    position: absolute;
+                    top: var(--swiper-navigation-top-offset, 0%);
+                    width: calc(var(--swiper-navigation-size) / 44* 27);
+                    height: var(--swiper-navigation-size);
+                    left: auto;
+                    right: 4%;
+                    z-index: 10;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    --swiper-navigation-size: 1rem;
+                    &:hover{
+                        background-color: $beige;
+                    }
                 }
-                    
-                }
-                
+
             }
             .swiper-button-next{
                 display: none;
@@ -235,6 +234,8 @@
         @media screen and (min-width: 1000px) {
             display: flex;
             justify-content: center;
+            width: 80%;
+            min-height: 25rem;
         }
         &__container{
             @media screen and (min-width: 1000px) {
@@ -256,14 +257,18 @@
             &__img{
                 width: 23rem;
                 height: 23rem;
-                
             }
         }
         
     }
 }
-.swiper-menuDesktop{
-    width: 73rem;
-    height: 25rem;
 
+.swiper-menuDesktop{
+    display: none;
+    @media screen and (min-width: 1000px ) {
+        display: block;
+    }
+    .swiper-slide{
+        display: flex;
+    }
 }

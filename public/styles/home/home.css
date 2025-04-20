@@ -1440,6 +1440,8 @@ body {
   .menu__foodDesk {
     display: flex;
     justify-content: center;
+    width: 80%;
+    min-height: 25rem;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -1468,8 +1470,15 @@ body {
 }
 
 .swiper-menuDesktop {
-  width: 73rem;
-  height: 25rem;
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .swiper-menuDesktop {
+    display: block;
+  }
+}
+.swiper-menuDesktop .swiper-slide {
+  display: flex;
 }
 
 .info {
