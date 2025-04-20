@@ -858,8 +858,8 @@ body {
   .rooms__slider__boxLogo {
     width: 19rem;
     height: 3rem;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 3%;
+    padding-right: 4%;
     padding-top: 0%;
     padding-bottom: 0%;
     left: 33%;
@@ -1465,6 +1465,11 @@ body {
     width: 23rem;
     height: 23rem;
   }
+}
+
+.swiper-menuDesktop {
+  width: 73rem;
+  height: 25rem;
 }
 
 .info {

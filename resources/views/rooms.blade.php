@@ -16,7 +16,7 @@
             <div id="navbarList" class="navbar__dropdown">
                 <a class="navbar__dropdown__page" href="home">Home</a>
                 <a class="navbar__dropdown__page" href="about">About Us</a>
-                <a class="navbar__dropdown__page" href="offers">Offers</a>
+                <a class="navbar__dropdown__page" href="offer">Offers</a>
                 <a class="navbar__dropdown__page" href="contact">Contact</a>
             </div>
             <div id="logoNavbar" class="navbar__logo">

@@ -46,3 +46,13 @@ const swiper = new Swiper('.swiper-food', {
       el: '.swiper-scrollbar',
     },
   });
+
+  const swiperFoodDesktop = new Swiper('.swiper-menuDesktop', {
+    loop: true,
+    direction: 'horizontal',
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    
+  });

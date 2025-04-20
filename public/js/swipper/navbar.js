@@ -14,5 +14,5 @@ buttonImg.addEventListener('click', (event) => {
 })
 
 buttonLogo.addEventListener('click' , (event) =>{
-    window.location.href="index.html"
+    window.location.href="home"
 })
