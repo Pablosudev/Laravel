@@ -438,6 +438,7 @@
 .container-swipper{
     @media screen and (min-width:1000px) {
         display: flex;
+        justify-content: center;
     }
 }
 .card-desktopGrid{
@@ -478,6 +479,9 @@
     &:hover{
         background-color: $beige;
     }
+}
+.swiper-details{
+    width: 100%;
 }
 }
 

@@ -1073,6 +1073,7 @@ body {
 @media screen and (min-width: 1000px) {
   .container-swipper {
     display: flex;
+    justify-content: center;
   }
 }
 
@@ -1112,4 +1113,7 @@ body {
 }
 .swiper-grid .swiper-button-next:hover {
   background-color: #BEAD8E;
+}
+.swiper-grid .swiper-details {
+  width: 100%;
 }/*# sourceMappingURL=roomsDetails.css.map */
