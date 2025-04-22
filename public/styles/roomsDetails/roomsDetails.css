@@ -1096,24 +1096,27 @@ body {
   }
 }
 
-.swiper-grid .swiper-button-prev {
+.swiper-roomgrid {
+  width: 100%;
+}
+.swiper-roomgrid .swiper-button-prev {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
   --swiper-navigation-size: 1rem;
 }
-.swiper-grid .swiper-button-prev:hover {
+.swiper-roomgrid .swiper-button-prev:hover {
   background-color: #BEAD8E;
 }
-.swiper-grid .swiper-button-next {
+.swiper-roomgrid .swiper-button-next {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
   --swiper-navigation-size: 1rem;
 }
-.swiper-grid .swiper-button-next:hover {
+.swiper-roomgrid .swiper-button-next:hover {
   background-color: #BEAD8E;
 }
-.swiper-grid .swiper-details {
+.swiper-roomgrid .swiper-details {
   width: 100%;
 }/*# sourceMappingURL=roomsDetails.css.map */
