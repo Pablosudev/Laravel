@@ -76,7 +76,7 @@
         </article>
         <article class="data__info">
             <div class="data__info__boxTeam">
-                <img src="{{ asset('images/Rooms/Room1.jpg')}}" alt="photo room" class="data__info__boxTeam__image">
+                <img src="{{ asset('images/Rooms/Room5.jpg')}}" alt="photo room" class="data__info__boxTeam__image">
                 <div class="data__info__boxTeam__team">
                     <img src="{{ asset('images/SectionData/svg-globber1.png')}}" alt="group logo" class="data__info__boxTeam__team__logo">
                     <h2 class="data__info__boxTeam__team__title">Strong Team</h2>
