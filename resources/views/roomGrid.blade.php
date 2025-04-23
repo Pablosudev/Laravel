@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rooms</title>
-    <link href="{{ asset(path: 'styles/app.css') }}" rel="stylesheet">
+    <link href="{{ asset(path: 'styles/roomsDetails/roomsDetails.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <img id="imgButton" src="IMAGENES/NavBar/1.png" alt="icono menu" class="navbar__menu">
+            <img id="imgButton" src="{{asset ('images/NavBar/1.png')}}" alt="icono menu" class="navbar__menu">
             <div id="navbarList" class="navbar__dropdown">
                 <a class="navbar__dropdown__page" href="index.html">Home</a>
                 <a class="navbar__dropdown__page" href="about.html">About Us</a>
@@ -31,10 +31,10 @@
             </div>
             <div class="navbar__icon">
                 <div class="navbar__icon__logo">
-                    <img src="IMAGENES/NavBar/Vector.png" alt="icono Vector" class="navbar__icon__logo__vector">
+                    <img src="{{asset ('images/NavBar/Vector.png')}}" alt="icono Vector" class="navbar__icon__logo__vector">
                 </div>
                 <div class="navbar__icon__logo">
-                    <img src="IMAGENES/NavBar/search.png" alt="icono Search" class="navbar__icon__logo__vector">
+                    <img src="{{asset ('images/NavBar/search.png')}}" alt="icono Search" class="navbar__icon__logo__vector">
                 </div>
             </div>
         </nav>
@@ -47,7 +47,7 @@
         </div>
     </header>
     <section class = "rooms-grid">
-        <div class="swiper-roomgrid">
+        <div class="swiper swiper-roomgrid">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -1248,8 +1248,10 @@
                 </div>
             </div>
             <!-- If we need navigation buttons -->
+
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+            
         </div>
     </section>
     @include ('profile.partials.footer')

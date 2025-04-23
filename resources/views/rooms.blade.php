@@ -54,7 +54,7 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -74,7 +74,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -94,7 +94,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -114,7 +114,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -134,7 +134,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -154,7 +154,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -178,7 +178,7 @@
                 <!--Slide2-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -198,7 +198,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -218,7 +218,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -238,7 +238,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -258,7 +258,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -278,7 +278,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -302,7 +302,7 @@
                 <!--Slide3-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -322,7 +322,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -342,7 +342,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -362,7 +362,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -382,7 +382,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -402,7 +402,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -426,7 +426,7 @@
                 <!--Slide4-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -446,7 +446,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -466,7 +466,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -486,7 +486,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -506,7 +506,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -526,7 +526,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -550,7 +550,7 @@
                 <!--Slide5-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -570,7 +570,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -590,7 +590,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -610,7 +610,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -630,7 +630,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -650,7 +650,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -674,7 +674,7 @@
                 <!--Slide6-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -694,7 +694,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -714,7 +714,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -734,7 +734,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -754,7 +754,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -774,7 +774,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -798,7 +798,7 @@
                 <!--Slide7-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -818,7 +818,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -838,7 +838,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -858,7 +858,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -878,7 +878,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -898,7 +898,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -922,7 +922,7 @@
                 <!--Slide8-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -942,7 +942,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -962,7 +962,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -982,7 +982,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1002,7 +1002,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1022,7 +1022,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1046,7 +1046,7 @@
                 <!--Slide9-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1066,7 +1066,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1086,7 +1086,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1106,7 +1106,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1126,7 +1126,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1146,7 +1146,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1170,7 +1170,7 @@
                 <!--Slide10-->
                 <div class="swiper-slide">
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1190,7 +1190,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1210,7 +1210,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1230,7 +1230,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1250,7 +1250,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">
@@ -1270,7 +1270,7 @@
                         </div>
                     </article>
                     <article class="rooms__card">
-                        <img src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="room image" class="rooms__card__img">
+                        <img src="{{asset ('images/Rooms/Room3.jpg')}}" alt="room image" class="rooms__card__img">
                         <div class = "containerRoom-desk">
                             <div class="rooms__card__boxLogo">
                                 <img src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="bed logo">

@@ -179,12 +179,12 @@
             
             <div class="details__box">
                 
-                    <!--SWIPER-->
-                    <div class="swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                        <!-- Slides -->
-                            <div class="swiper-slide">
+                <!--SWIPER-->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide">
                                 <img class="details__box__image" src="{{asset ('images/Rooms/descarga (2).jpg')}}" alt="photo room">
                                 <div class="details__box__boxLogo">
                                     <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
@@ -201,8 +201,8 @@
                                     <p class="details__box__container__price">$345/Night</p>
                                     <p class="details__box__container__booking">Booking Now</p>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide">
                                 <img class="details__box__image" src="{{asset ('images/Rooms/descarga (3).jpg')}}" alt="photo room">
                                 <div class="details__box__boxLogo">
                                     <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
@@ -219,8 +219,8 @@
                                     <p class="details__box__container__price">$345/Night</p>
                                     <p class="details__box__container__booking">Booking Now</p>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide">
                                 <img class="details__box__image" src="{{asset ('images/Rooms/Room3.jpg')}}" alt="photo room">
                                 <div class="details__box__boxLogo">
                                     <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
@@ -237,29 +237,12 @@
                                     <p class="details__box__container__price">$345/Night</p>
                                     <p class="details__box__container__booking">Booking Now</p>
                                 </div>
-                            </div>
                         </div>
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
                     </div>
-                    <!--BoxLogo-->
-                    <!-- <div class="details__box__boxLogo">
-                        <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/8725460_bed_icon 1.png')}}" alt="">
-                        <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (1).png')}}" alt=""> 
-                        <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Group.png')}}" alt="">
-                        <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Layer_1.png')}}" alt=""> 
-                        <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (2).png')}}" alt=""> 
-                        <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (3).png')}}" alt=""> 
-                        <img class="details__box__boxLogo__logo" src="{{asset ('images/SectionRooms/Vector (4).png')}}" alt=""> 
-                    </div>  
-                    <h2 class="details__box__title">Minimal Duplex Room</h2>
-                    <p class="details__box__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmos tempor.</p>
-                    <div class="details__box__container">
-                        <p class="details__box__container__price">$345/Night</p>
-                        <p class="details__box__container__booking">Booking Now</p>
-                    </div> -->
-                
+                        
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </section>
     </section>

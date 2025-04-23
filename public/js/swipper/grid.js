@@ -7,7 +7,7 @@ const swiper = new Swiper('.swiper-roomgrid', {
     
     pagination: {
       el: '.swiper-pagination',
-      
+    
     },
   
     
