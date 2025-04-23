@@ -83,6 +83,11 @@
                     &__listServices{
                         margin-right: 1rem ;
                         list-style-type: none;
+                        font-family: $roboto;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        line-height: 3rem;
+                        color: $grey7;
                         @media screen and (min-width: 1000px) {
                             font-family: $roboto;
                             font-weight: 400;

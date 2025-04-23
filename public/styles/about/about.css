@@ -487,6 +487,11 @@ body {
 .footer__section__article__service__options__listServices {
   margin-right: 1rem;
   list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 3rem;
+  color: #777777;
 }
 @media screen and (min-width: 1000px) {
   .footer__section__article__service__options__listServices {
