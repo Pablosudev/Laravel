@@ -878,13 +878,14 @@ body {
   }
 }
 .details__box .swiper {
-  height: 15.25rem;
+  height: 25.6rem;
   width: 20.9rem;
 }
 .details__box .swiper .swiper-button-prev {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
+  top: 23%;
   --swiper-navigation-size: 1rem;
 }
 .details__box .swiper .swiper-button-prev:hover {
@@ -894,6 +895,7 @@ body {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
+  top: 23%;
   --swiper-navigation-size: 1rem;
 }
 .details__box .swiper .swiper-button-next:hover {
@@ -909,7 +911,7 @@ body {
   padding-top: 3%;
   padding-bottom: 3%;
   position: absolute;
-  bottom: 38%;
+  bottom: 43%;
   left: 12%;
   z-index: 1;
 }
@@ -936,7 +938,7 @@ body {
   letter-spacing: -0.04rem;
   text-align: center;
   color: #222222;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 @media screen and (min-width: 1000px) {
   .details__box__title {
@@ -1062,9 +1064,13 @@ body {
   }
 }
 
+.card-desktop {
+  display: none;
+}
 @media screen and (min-width: 1000px) {
   .card-desktop {
     margin-right: 15%;
+    display: block;
   }
 }
 

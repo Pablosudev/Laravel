@@ -828,6 +828,7 @@ body {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
+  top: 18%;
   --swiper-navigation-size: 1rem;
 }
 .offers__popular__box .swiper-offers .swiper-button-prev:hover {
@@ -837,6 +838,7 @@ body {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
+  top: 18%;
   --swiper-navigation-size: 1rem;
 }
 .offers__popular__box .swiper-offers .swiper-button-next:hover {
