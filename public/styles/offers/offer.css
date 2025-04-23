@@ -785,6 +785,7 @@ body {
   .offers__popular {
     width: 100%;
     margin-top: 10%;
+    padding-bottom: 20%;
   }
 }
 .offers__popular__list {
@@ -821,7 +822,7 @@ body {
 }
 .offers__popular__box .swiper-offers {
   width: 20.9rem;
-  height: 13.6rem;
+  height: 33.6rem;
 }
 .offers__popular__box .swiper-offers .swiper-button-prev {
   color: #222222;
@@ -853,23 +854,32 @@ body {
   bottom: 39%;
   left: 21%;
   z-index: 1;
+  bottom: 56%;
+  left: 17%;
 }
 .offers__popular__box__boxLogo__img {
   padding-right: 1rem;
 }
 @media screen and (min-width: 1000px) {
   .offers__popular__box__boxLogo {
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     padding-right: 21%;
     padding-left: 10%;
-    top: 49%;
-    left: 15%;
+    top: 90%;
+    left: 17%;
   }
 }
 .offers__popular__box__container {
   background-color: #FFFFFF;
   padding-top: 1rem;
+  position: absolute;
+  top: 40%;
+}
+@media screen and (min-width: 1000px) {
+  .offers__popular__box__container {
+    top: 98%;
+  }
 }
 .offers__popular__box__container__room {
   font-family: "Old Standard TT", serif;
@@ -974,7 +984,7 @@ body {
 
 @media screen and (min-width: 1000px) {
   .cardDesktop {
-    max-width: 23rem;
+    max-width: 31rem;
     position: relative;
   }
 }/*# sourceMappingURL=offer.css.map */

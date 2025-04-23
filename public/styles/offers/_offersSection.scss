@@ -161,6 +161,7 @@
         @media screen and (min-width: 1000px) {
             width: 100%;
             margin-top: 10%;
+            padding-bottom: 20%;
 
         }
         &__list{
@@ -197,7 +198,7 @@
             }
             .swiper-offers{
                 width: 20.9rem;
-                height: 13.6rem;
+                height: 33.6rem;
             
             .swiper-button-prev{
                 color: $black2;
@@ -221,18 +222,25 @@
             &__boxLogo{
                 @include defaultBoxLog($bottom:39%,$left:21%);
                 z-index: 1;
+                bottom: 56%;
+                left: 17%;
                 @media screen and (min-width: 1000px) {
-                    padding-bottom: 1%;
-                    padding-top: 1%;
+                    padding-bottom: 5%;
+                    padding-top: 5%;
                     padding-right: 21%;
                     padding-left: 10%;
-                    top: 49%;
-                    left: 15%;
+                    top: 90%;
+                    left: 17%;
                 }
             }
             &__container{
                 background-color: $whiteF;
                 padding-top: 1rem;
+                position: absolute;
+                top: 40%;
+                @media screen and (min-width: 1000px) {
+                    top: 98%;
+                }
 
                 &__room{
                     font-family: $old;
@@ -333,7 +341,7 @@
   }
   .cardDesktop{
     @media screen and (min-width:1000px) {
-        max-width: 23rem;
+        max-width: 31rem;
         position: relative;
     }
   }
