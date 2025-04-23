@@ -246,13 +246,13 @@
                 <img class = "photoDesktop" src="{{asset ('images/AboutUS/parque.jpg')}}" alt="">
             </div>
             <!--Swiper-->
-            <div  class="swiper-about">
+            <div  class="swiper swiper-about">
                         
                 <div class="swiper-wrapper">
                         
-                    <div class="swiper-slide"><img class = "imgSlide" src="{{asset ('images/Rooms/AizheRK0tt4cDjSRwSea_large.jpg')}}" alt="photo room"></div>
                     <div class="swiper-slide"><img class = "imgSlide" src="{{asset ('images/Rooms/Room2.jpg')}}" alt="photo room"></div>
-                    ...
+                    <div class="swiper-slide"><img class = "imgSlide" src="{{asset ('images/Rooms/Room3.jpg')}}" alt="photo room"></div>
+                    
                     </div>
                         
                     <div class="swiper-pagination"></div>
