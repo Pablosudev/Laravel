@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link href="{{ asset('styles/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('styles/about/about.css') }}" rel="stylesheet">
+    <link href="{{ asset('styles/home/home.css') }}" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -122,7 +123,7 @@
                     <div class="swiper-slide">
                         <div class="about__facilities__image">
                             <img class="about__facilities__image__hand" src="{{asset ('images/AboutUS/facilities/cancellation.png')}}" alt="logo hand">
-                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/04.png"')}} alt="logo first">
+                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/04.png')}}" alt="logo first">
                             <h2 class="about__facilities__image__title">Have High Rating</h2>
                             <p class="about__facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
@@ -131,7 +132,7 @@
                     <div class="swiper-slide">
                         <div class="about__facilities__image">
                             <img class="about__facilities__image__hand" src="{{asset ('images/AboutUS/facilities/card.png')}}" alt="logo hand">
-                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilitieS/05.png')}}" alt="logo first">
+                            <img class="about__facilities__image__first" src="{{asset ('images/AboutUS/facilities/05.png')}}" alt="logo first">
                             <h2 class="about__facilities__image__title">Have High Rating</h2>
                             <p class="about__facilities__image__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
@@ -149,11 +150,6 @@
                 </div>
                         
                 <div class="swiper-pagination"></div>
-                    
-                        
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                
                         
             </div>
             <section class="facilitiesDesktop">
@@ -267,6 +263,7 @@
     @include ('profile.partials.footer')
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="{{asset ('js/swipper/about.js')}}"></script>
+    <script src="{{asset ('js/swipper/home.js')}}"></script>
     <script src="{{asset ('js/swipper/navbar.js')}}"></script>
 </body>
 </html>
