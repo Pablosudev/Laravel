@@ -215,6 +215,9 @@ body {
   color: #222222;
   margin-left: 0.5rem;
 }
+.footer__back {
+  height: 100%;
+}
 
 .navbar {
   background-color: #FFFFFF;
@@ -911,8 +914,8 @@ body {
   padding-top: 3%;
   padding-bottom: 3%;
   position: absolute;
-  bottom: 43%;
-  left: 12%;
+  bottom: 36%;
+  left: 16%;
   z-index: 1;
 }
 @media screen and (min-width: 1000px) {
@@ -1089,7 +1092,8 @@ body {
 }
 
 .card-desktopGrid {
-  margin-bottom: 20%;
+  margin-bottom: 12%;
+  position: relative;
 }
 @media screen and (min-width: 1000px) {
   .card-desktopGrid {
@@ -1097,6 +1101,7 @@ body {
     position: relative;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 7%;
   }
 }
 
@@ -1119,8 +1124,8 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .swiper-roomgrid .swiper-button-prev {
-    top: 98.5%;
-    left: 40%;
+    top: 98.6%;
+    left: 42%;
   }
 }
 .swiper-roomgrid .swiper-button-prev:hover {
@@ -1136,7 +1141,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .swiper-roomgrid .swiper-button-next {
-    top: 98.5%;
+    top: 98.6%;
     right: 42%;
   }
 }
