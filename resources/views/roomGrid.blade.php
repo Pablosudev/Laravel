@@ -14,10 +14,10 @@
         <nav class="navbar">
             <img id="imgButton" src="{{asset ('images/NavBar/1.png')}}" alt="icono menu" class="navbar__menu">
             <div id="navbarList" class="navbar__dropdown">
-                <a class="navbar__dropdown__page" href="index.html">Home</a>
-                <a class="navbar__dropdown__page" href="about.html">About Us</a>
-                <a class="navbar__dropdown__page" href="offers.html">Offers</a>
-                <a class="navbar__dropdown__page" href="contact.html">Contact</a>
+                <a class="navbar__dropdown__page" href="home">Home</a>
+                <a class="navbar__dropdown__page" href="about">About Us</a>
+                <a class="navbar__dropdown__page" href="offer">Offers</a>
+                <a class="navbar__dropdown__page" href="contact">Contact</a>
             </div>
             <div id="logoNavbar" class="navbar__logo">
                 <div class="navbar__logo__box">
@@ -1248,7 +1248,7 @@
                 </div>
             </div>
             <!-- If we need navigation buttons -->
-
+            <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
             

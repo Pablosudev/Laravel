@@ -868,7 +868,7 @@ body {
   }
 }
 .details__box__image {
-  width: 20.9rem;
+  width: 100%;
   height: 13.6rem;
 }
 @media screen and (min-width: 1000px) {
@@ -1088,6 +1088,9 @@ body {
   }
 }
 
+.card-desktopGrid {
+  margin-bottom: 5%;
+}
 @media screen and (min-width: 1000px) {
   .card-desktopGrid {
     max-width: 23rem;
@@ -1098,20 +1101,20 @@ body {
 }
 
 .rooms-grid {
-  padding-top: 5%;
+  padding-top: 15%;
   padding-bottom: 5%;
 }
 
 .swiper-roomgrid {
   width: 100%;
-  height: 109rem;
+  height: auto;
 }
 .swiper-roomgrid .swiper-button-prev {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
-  top: 98%;
-  left: 35%;
+  top: 98.5%;
+  left: 42%;
   --swiper-navigation-size: 1rem;
 }
 .swiper-roomgrid .swiper-button-prev:hover {
@@ -1121,10 +1124,25 @@ body {
   color: #222222;
   padding: 1rem;
   background-color: #FFFFFF;
-  top: 98%;
-  right: 35%;
+  top: 98.5%;
+  right: 42%;
   --swiper-navigation-size: 1rem;
 }
 .swiper-roomgrid .swiper-button-next:hover {
   background-color: #BEAD8E;
+}
+.swiper-roomgrid .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 0%;
+}
+.swiper-roomgrid .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #BEAD8E;
 }/*# sourceMappingURL=roomsDetails.css.map */
