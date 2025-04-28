@@ -70,7 +70,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -90,7 +90,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -110,7 +110,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -130,7 +130,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -150,7 +150,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -170,7 +170,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -194,7 +194,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -214,7 +214,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -234,7 +234,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -254,7 +254,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -274,7 +274,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -294,7 +294,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -318,7 +318,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -338,7 +338,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -358,7 +358,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -378,7 +378,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -398,7 +398,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -418,7 +418,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -442,7 +442,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -462,7 +462,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -482,7 +482,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -502,7 +502,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -522,7 +522,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -542,7 +542,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -566,7 +566,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -586,7 +586,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -606,7 +606,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -626,7 +626,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -646,7 +646,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -666,7 +666,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -690,7 +690,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -710,7 +710,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -730,7 +730,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -750,7 +750,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -770,7 +770,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -790,7 +790,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -814,7 +814,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -834,7 +834,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -854,7 +854,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -874,7 +874,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -894,7 +894,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -914,7 +914,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -938,7 +938,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -958,7 +958,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -978,7 +978,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -998,7 +998,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1018,7 +1018,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1038,7 +1038,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -1062,7 +1062,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1082,7 +1082,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1102,7 +1102,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1122,7 +1122,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1142,7 +1142,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1162,7 +1162,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
@@ -1186,7 +1186,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1206,7 +1206,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1226,7 +1226,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1246,7 +1246,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1266,7 +1266,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
                     <article class="rooms__card">
@@ -1286,7 +1286,7 @@
                             </div>
                             <div class="rooms__card__date">
                                 <p class="rooms__card__date__price">$345/Night</p>
-                                <p class="rooms__card__date__booking">Booking Now</p>
+                                <p class="rooms__card__date__booking">Book Now</p>
                         </div>
                     </article>
 
