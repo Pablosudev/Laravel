@@ -82,7 +82,7 @@
                         </li>
                     </div>
                 </div>
-                <button type="input" class="offers__cards__button">BOOK NOW</button>
+                <button class="offers__cards__button">BOOK NOW</button>
                 
             </div>
         </article>
@@ -121,7 +121,7 @@
                         </li>
                     </div>
                 </div>
-                <button type="input" class="offers__cards__button">BOOK NOW</button>
+                <button  class="offers__cards__button">BOOK NOW</button>
                 
             </div>
         </article>
@@ -160,7 +160,7 @@
                         </li>
                     </div>
                 </div>
-                <button type="input" class="offers__cards__button">BOOK NOW</button>
+                <button  class="offers__cards__button">BOOK NOW</button>
                 
             </div>
         </article>
@@ -199,7 +199,7 @@
                         </li>
                     </div>
                 </div>
-                <button type="input" class="offers__cards__button">BOOK NOW</button>
+                <button  class="offers__cards__button">BOOK NOW</button>
                 
             </div>
         </article>
@@ -224,7 +224,7 @@
                         <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                         <div class="offers__popular__box__container__price">
                             <p class="offers__popular__box__container__price__pricing">$345/Night</p>
-                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                            <p class="offers__popular__box__container__price__booking">BOOK  NOW</p>
                         </div>
                     </div>
                 </div>
@@ -245,7 +245,7 @@
                         <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                         <div class="offers__popular__box__container__price">
                             <p class="offers__popular__box__container__price__pricing">$345/Night</p>
-                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                            <p class="offers__popular__box__container__price__booking">BOOK  NOW</p>
                         </div>
                     </div>
                 </div>
@@ -266,7 +266,7 @@
                         <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                         <div class="offers__popular__box__container__price">
                             <p class="offers__popular__box__container__price__pricing">$345/Night</p>
-                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                            <p class="offers__popular__box__container__price__booking">BOOK  NOW</p>
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
                                         <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                                         <div class="offers__popular__box__container__price">
                                             <p class="offers__popular__box__container__price__pricing">$345/Night</p>
-                                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                                            <p class="offers__popular__box__container__price__booking">BOOK  NOW</p>
                                         </div>
                                     </div>
                                 </div>
@@ -318,7 +318,7 @@
                                         <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                                         <div class="offers__popular__box__container__price">
                                             <p class="offers__popular__box__container__price__pricing">$345/Night</p>
-                                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                                            <p class="offers__popular__box__container__price__booking">BOOK  NOW</p>
                                         </div>
                                     </div>
                                 </div>
@@ -339,7 +339,7 @@
                                         <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                                         <div class="offers__popular__box__container__price">
                                             <p class="offers__popular__box__container__price__pricing">$345/Night</p>
-                                            <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                                            <p class="offers__popular__box__container__price__booking">BOOK  NOW</p>
                                         </div>
                                     </div>
                                 </div>
@@ -365,7 +365,7 @@
                     <p class="offers__popular__box__container__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                     <div class="offers__popular__box__container__price">
                         <p class="offers__popular__box__container__price__pricing">$345/Night</p>
-                        <p class="offers__popular__box__container__price__booking">Booking Now</p>
+                        <p class="offers__popular__box__container__price__booking">BOOK  NOW</p>
                     </div>
                 </div> -->
             </div>

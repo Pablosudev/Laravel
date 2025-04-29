@@ -72,7 +72,7 @@
                     Ut enim ad minim veniam,quis <br>nostrud exercitation ullamco laboris nisi 
                     ut aliquip ex <br>ea commodo consquat.
                 </p>
-                <button class="data__intro__button">BOOK NOW</button>
+                <button  class="data__intro__button" onclick="window.location.href='roomDetails'">BOOK NOW</button>
         </article>
         <article class="data__info">
             <div class="data__info__boxTeam">
